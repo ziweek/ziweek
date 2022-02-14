@@ -38,7 +38,7 @@ Here are some ideas to get you started:
   
 - ⚡ I love Movies, Games and Tennis.  
   
-- ❓ Contact me by austin.jiuk.kim@gmail.com.  
+- 📫 Contact me by austin.jiuk.kim@gmail.com.  
   
 
 Korean
