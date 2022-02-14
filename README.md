@@ -30,15 +30,13 @@ Here are some ideas to get you started:
 
  - 🎓 I am majoring in Bussiness Administration at **Korea University**.  
   
-
  - 🌱 I’m currently learning **Business Analytics**, **Machine Learning** and **Data Science**.  
   
-
  - 🌱 I’m also interested in **Algorithm** and **Web Development**.  
   
  - ⚡ I love Movies, Games and Tennis.  
   
- - 📫 Contact me by austin.jiuk.kim@gmail.com.  
+ - ❓ Contact me by austin.jiuk.kim@gmail.com.  
   
 
 Korean
