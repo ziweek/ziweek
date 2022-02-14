@@ -14,17 +14,15 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# <div align="center">< 👋 Hello, World! /></div>  
+### <div align="center">< 👋 Hello, World! /></div>  
   
-<br/>  
-
-<br/>
 
 ### <div align="center">Hi, there. I'm Austin Jiuk Kim.</div>  
   
 
 ###### <div align="center">< 🍄 A beginner developer. ></div>  
   
+<br/>
 
 ###    
   
@@ -35,10 +33,12 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning Business Analytics, Machine Learning and Data Science.  
   
 
-- 🌱 I’m also interested in Web Development and Algorithm.  
+- 🌱 I’m also interested in Algorithm and Web Development.  
   
 
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
 
 <br/>  
+
+
