@@ -18,13 +18,13 @@ Here are some ideas to get you started:
 
 ### <div align="center">< 👋 Hello, World! /></div>  
   
-<br/>
 
 ### <div align="center">Hi, there. I'm Austin Jiuk Kim.</div>  
   
 
 ###### <div align="center">< 🍄 A beginner developer. ></div>  
   
+<br/>
 
 ###    
   
