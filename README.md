@@ -40,7 +40,3 @@ Here are some ideas to get you started:
 
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
-
-
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
