@@ -34,14 +34,13 @@ Here are some ideas to get you started:
   
  - 🌱 I’m also interested in **Algorithm** and **Web Development**.  
   
+ - ⚡ I can communicate in English, Korean and Japanese.
+  
  - ⚡ I love Movies, Games and Tennis.  
   
  - ❓ Contact me by austin.jiuk.kim@gmail.com.  
   
 
-Korean
-Japanese
-English
  
   
 R Jupyter Notebook  
