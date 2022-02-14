@@ -1,4 +1,3 @@
-### Hi there 👋
 
 <!--
 **Austin-Jiuk-Kim/Austin-Jiuk-Kim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,6 +16,9 @@ Here are some ideas to get you started:
 
 # <div align="center">< 👋 Hello, World! /></div>  
   
+<br/>  
+
+<br/>
 
 ### <div align="center">Hi, there. I'm Austin Jiuk Kim.</div>  
   
@@ -27,13 +29,13 @@ Here are some ideas to get you started:
 ###    
   
 
-- 🎓 I am majoring in Bussiness Administration.  
+- 🎓 I am majoring in Bussiness Administration at Korea University.  
   
 
 - 🌱 I’m currently learning Business Analytics, Machine Learning and Data Science.  
   
 
-- 🌱 I’m also interested in Web Development.  
+- 🌱 I’m also interested in Web Development and Algorithm.  
   
 
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
