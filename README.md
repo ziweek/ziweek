@@ -36,7 +36,7 @@ Here are some ideas to get you started:
 
 - 🌱 I’m also interested in **Algorithm** and **Web Development**.  
   
-- ⚡ I love Tennis, Movies, Games.  
+- ⚡ I love Movies, Games and Tennis.  
   
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
