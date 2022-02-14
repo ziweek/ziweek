@@ -25,7 +25,6 @@ Here are some ideas to get you started:
 
 ###### <div align="center">< 🍄 A beginner developer. ></div>  
   
-<br/>
 
 ###    
   
@@ -41,7 +40,4 @@ Here are some ideas to get you started:
 
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
-
-<br/>  
-
 
