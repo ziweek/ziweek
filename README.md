@@ -15,9 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
+# <div align="center">< 👋 Hello, World! /></div>  
   
 
 ### <div align="center">Hi, there. I'm Austin Jiuk Kim.</div>  
@@ -32,11 +30,13 @@ Here are some ideas to get you started:
 - 🎓 I am majoring in Bussiness Administration.  
   
 
-- 🌱 I’m currently learning Business Analytics.  
+- 🌱 I’m currently learning Business Analytics, Machine Learning and Data Science.  
   
 
-- 🌱 I’m also interested in Machine Learning and Data Science.  
+- 🌱 I’m also interested in Web Development.  
   
 
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
+
+<br/>  
