@@ -40,7 +40,19 @@ Here are some ideas to get you started:
   
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
+
 Korean
 Japanese
 English
+ 
+  
+R Jupyter Notebook  
+Python Java C
+HTML CSS JavaScript
+Photoshop illustrator Fusion360
+Tensorflow Pytorch
+Django React
+React Native
+
+ 
   
