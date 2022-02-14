@@ -36,7 +36,11 @@ Here are some ideas to get you started:
 
 - 🌱 I’m also interested in **Algorithm** and **Web Development**.  
   
-
+- ⚡ I like Movies  
+  
 - ❓ Contact me by austin.jiuk.kim@gmail.com  
   
-
+Korean
+Japanese
+English
+  
