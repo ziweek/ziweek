@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 -->
 
 <br/>
-
-### <div align="center">Hi, there. I'm Austin Jiuk Kim.</div>  
+### <div align="center">Hi, there.</div>
+### <div align="center">I'm Austin Jiuk Kim.</div>  
   
 
 ###### <div align="center">< 🍄 A beginner developer. ></div>  
