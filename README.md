@@ -32,7 +32,7 @@ Here are some ideas to get you started:
   
  - 🌱 I’m currently learning **Business Analytics**, **Machine Learning** and **Data Science**.  
   
- - 🌱 I’m also interested in **Algorithm** and **Web Development**.  
+ - 🌱 I’m also interested in **Algorithm**, **Web Development** and **3d Printing**.  
   
  - ⚡ I can communicate in Korean, English and Japanese.
   
