@@ -13,11 +13,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+<!--
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99459331/154816054-b4721b99-2092-4dd0-9da0-2a0e73bf4356.gif#gh-light-mode-only" width=300>
 <img src="https://user-images.githubusercontent.com/99459331/154815969-ee9d846b-673c-47af-8e99-50284b3aeb59.gif#gh-dark-mode-only" width=300>
 </p>
+-->
+<br/>
 
 ### <div align="center">Hi, there!</div>
 
