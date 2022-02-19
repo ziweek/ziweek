@@ -22,6 +22,11 @@ Here are some ideas to get you started:
   
 
 ###### <div align="center">< 🍄 A beginner developer. ></div>  
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99459331/154814691-abc95df8-aa6d-4e4c-ab99-e0bed500e91a.gif" width=300>
+</p>
+
   
 <br/>
 
