@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 -->
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif#gh-light-mode-only" width=300>
+<img src="https://user-images.githubusercontent.com/99459331/154816054-b4721b99-2092-4dd0-9da0-2a0e73bf4356.gif#gh-light-mode-only" width=300>
 <img src="https://user-images.githubusercontent.com/99459331/154815969-ee9d846b-673c-47af-8e99-50284b3aeb59.gif#gh-dark-mode-only" width=300>
 </p>
 
@@ -23,7 +23,6 @@ Here are some ideas to get you started:
 
 ### <div align="center">I'm Austin Jiuk Kim.</div>  
   
-
 ###### <div align="center">< 🍄 A beginner developer. ></div>  
 
 <p align="center">
