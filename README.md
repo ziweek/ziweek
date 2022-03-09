@@ -37,7 +37,7 @@ Here are some ideas to get you started:
 ###    
   
 
- - 🎓 I am majoring in Bussiness Administration at **Korea University**.  
+ - 🎓 I am majoring in Business Administration at **Korea University**.  
   
  - 🌱 I’m currently learning **Business Analytics**, **Machine Learning** and **Data Science**.  
   
