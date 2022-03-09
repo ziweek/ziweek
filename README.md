@@ -43,10 +43,6 @@ Here are some ideas to get you started:
   
  - 🌱 I’m also interested in **Algorithm**, **Web Development** and **3d Printing**.  
   
- - ⚡ I can communicate in Korean, English and Japanese.
-  
- - ⚡ I love Movies, Games and Tennis.  
-  
  - ❓ Contact me by austin.jiuk.kim@gmail.com.  
   
   
