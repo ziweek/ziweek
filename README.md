@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 <img src="https://user-images.githubusercontent.com/99459331/154815969-ee9d846b-673c-47af-8e99-50284b3aeb59.gif#gh-dark-mode-only" width=300>
 </p>
 -->
-<!--
+
 <br/>
 
 ### <div align="center">Hi, there!</div>
@@ -46,4 +46,3 @@ Here are some ideas to get you started:
   
  - ❓ Contact me by austin.jiuk.kim@gmail.com.  
   
--->
