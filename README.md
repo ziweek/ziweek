@@ -47,8 +47,8 @@ Here are some ideas to get you started:
   [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=ziwe_ek.log)](https://velog.io/@ziwe_ek) 
 
 
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=ziwe_ek)](https://github.com/ziwe_ek/velog-readme-stats#gh-light-mode-only)
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=ziwe_ek&color=dark)](https://github.com/ziwe_ek/velog-readme-stats#gh-dark-mode-only)
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=ziwe_ek)](https://velog-readme-stats.vercel.app/api/redirect?name=ziwe_ek#gh-light-mode-only)
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=ziwe_ek&color=dark)](https://velog-readme-stats.vercel.app/api/redirect?name=ziwe_ek#gh-dark-mode-only)
 
   
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ziweek)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
