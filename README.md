@@ -24,9 +24,7 @@ Here are some ideas to get you started:
 
 ### <div align="center">Hi, there!</div>
 
-### <div align="center">I'm Austin Jiuk Kim.</div>  
-  
-###### <div align="center">< 🍄 A beginner developer. ></div>  
+### <div align="center">I'm Austin Jiuk Kim.</div>    
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif#gh-light-mode-only" width=300>
@@ -45,4 +43,15 @@ Here are some ideas to get you started:
  - 🌱 I’m also interested in **Algorithm**, **Web Development** and **3d Printing**.  
   
  - ❓ Contact me by austin.jiuk.kim@gmail.com.  
+
+  [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=ziwe_ek.log)](https://velog.io/@ziwe_ek) 
+
+
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=ziwe_ek)](https://github.com/eungyeole/velog-readme-stats#gh-light-mode-only)
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=ziwe_ek&color=dark)](https://github.com/eungyeole/velog-readme-stats#gh-dark-mode-only)
+
+  
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ziweek)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ziweek&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+
   
