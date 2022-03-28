@@ -12,7 +12,7 @@
 </p>  
 
 
-<h3 align="center"> . </h3>
+<h3 align="center"> AI Stack </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=Jupyter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=Google%20Colab&logoColor=white"/>
@@ -25,7 +25,7 @@
 </p>
 
 
-<h3 align="center"> . </h3>
+<h3 align="center"> Dev Stack </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
