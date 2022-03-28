@@ -12,15 +12,11 @@
 <h3 align="center"> . </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=Jupyter&logoColor=white"/> 
-</p>
-
-<p align="center">
+  <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=Jupyter&logoColor=white"/>
+  <br/>
   <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
-</p>
-
-<p align="center">
+  <br/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/> 
 </p>
 
@@ -29,9 +25,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=white"/>
-</p>
-
-<p align="center">
+  <br/>
   <img src="https://img.shields.io/badge/React%20Native-61dafb?style=flat-square&logo=React&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> 
 </p>
