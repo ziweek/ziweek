@@ -1,8 +1,6 @@
-
 <br/>
 
 ### <div align="center">Hi, there!</div>
-
 ### <div align="center">I'm Austin Jiuk Kim.</div>    
 
 <p align="center">
@@ -23,6 +21,12 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/> 
+</p>
+
+
+<h3 align="center"> . </h3>
+<p align="center">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=white"/>
 </p>
@@ -36,5 +40,5 @@
 <h3 align="center"> Contact Me </h3>
 <p align="center">
   <a href="https://velog.io/@ziwe_ek"><img src="https://img.shields.io/badge/Velog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ziwe_ek"/>
-  <a href="mailto:austin.jiuk.kim@naver.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=viliketh1s98@naver.com"/></a>
+  <a href="mailto:austin.jiuk.kim@naver.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=viliketh1s98@naver.com"/>
 </p>
