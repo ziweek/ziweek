@@ -1,3 +1,8 @@
+<!--
+simpleicons
+https://simpleicons.org/
+-->
+
 <br/>
 
 
@@ -23,7 +28,8 @@
   <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
   <br/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
 </p>
 
 
