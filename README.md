@@ -18,6 +18,11 @@ https://simpleicons.org/
   <img src="https://user-images.githubusercontent.com/99459331/154815600-359f1ed4-5b9c-4606-857b-a1556816e9d6.gif#gh-dark-mode-only" width=300>
 </p>  
 
+<h3 align="center"> 「 Now I'm trying 」  </h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat-square&logo=Apache%20Hadoop&logoColor=white"/>
+</p>
 
 <h3 align="center"> 「 AI Stack 」  </h3>
 <p align="center">
@@ -43,6 +48,8 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/React%20Native-61dafb?style=flat-square&logo=React&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> 
+  <br/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 </p>
 
 
