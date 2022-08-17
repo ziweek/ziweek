@@ -9,7 +9,8 @@ https://simpleicons.org/
 
 ### <div align="center">Hi, there!</div>
 ### <div align="center">I'm Austin Jiuk Kim.</div>
-<p align="center">
+
+<p>
   <img src="https://img.shields.io/badge/About%20Me-F7F7F7?style=flat-square&logo=Notion&logoColor=black"/>
 </p>
  
