@@ -31,7 +31,7 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat-square&logo=Apache%20Hadoop&logoColor=white"/>
 </p>
 
-<h3 align="center"> 「 AI Stack 」  </h3>
+<h3 align="center"> 「 Ai Stack 」  </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=Jupyter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=Google%20Colab&logoColor=white"/>
