@@ -9,22 +9,27 @@ https://simpleicons.org/
 
 ### <div align="center">Hi, there!</div>
 ### <div align="center">I'm Austin Jiuk Kim.</div>
-
-  <!--
-<p  align="center">
-  <img src="https://img.shields.io/badge/About%20Me-F7F7F7?style=flat-square&logo=Notion&logoColor=black"/>
+ <p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/99459331/154815600-359f1ed4-5b9c-4606-857b-a1556816e9d6.gif">
+  <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" width=300>
+</picture>
 </p>
- -->
- 
+
+<!--   
 <p align="center">
   <img src="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif#gh-light-mode-only" width=300>
-<!--   <img src="https://user-images.githubusercontent.com/99459331/154815600-359f1ed4-5b9c-4606-857b-a1556816e9d6.gif#gh-dark-mode-only" width=300> -->
-</p>  
-
-<p align="center">
-<!--   <img src="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif#gh-light-mode-only" width=300> -->
   <img src="https://user-images.githubusercontent.com/99459331/154815600-359f1ed4-5b9c-4606-857b-a1556816e9d6.gif#gh-dark-mode-only" width=300>
-</p>  
+</p>
+-->
+
+<!--   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif#gh-light-mode-only" width=300> 
+  <img src="https://user-images.githubusercontent.com/99459331/154815600-359f1ed4-5b9c-4606-857b-a1556816e9d6.gif#gh-dark-mode-only" width=300>
+</p> 
+-->
 
   <!--
 <h3 align="center"> 「 Now I'm trying 」  </h3>
@@ -78,6 +83,8 @@ https://simpleicons.org/
   <br/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
+    <br/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
 </p>
 
 
@@ -90,3 +97,4 @@ https://simpleicons.org/
      <img src="https://img.shields.io/badge/Velog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ziwe_ek"/>
   </a>
 </p>
+<br>
