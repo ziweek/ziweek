@@ -33,6 +33,7 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat-square&logo=Apache%20Hadoop&logoColor=white"/>
 </p>
 -->
+<br>
 
 <h3 align="center"> 「 Ai Stack 」  </h3>
 <p align="center">
@@ -47,6 +48,7 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
   <br/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
   <!--
   <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
 -->
@@ -69,17 +71,22 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/React%20Native-61dafb?style=flat-square&logo=React&logoColor=white"/>
     -->
    <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> 
-   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/> 
    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/> 
    <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
-
+    
   <br/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
 </p>
 
 
 <h3 align="center"> 「 Contact Me 」 </h3>
 <p align="center">
-  <a href="mailto:austin.jiuk.kim@naver.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
-   <a href="https://velog.io/@ziwe_ek"><img src="https://img.shields.io/badge/Velog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ziwe_ek"/>
+  <a href="mailto:austin.jiuk.kim@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
+  </a>
+   <a href="https://velog.io/@ziwe_ek">
+     <img src="https://img.shields.io/badge/Velog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ziwe_ek"/>
+  </a>
 </p>
