@@ -75,8 +75,8 @@ https://simpleicons.org/
   <a href="mailto:austin.jiuk.kim@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
   </a>
-   <a href="https://velog.io/@ziwe_ek">
-     <img src="https://img.shields.io/badge/Velog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ziwe_ek"/>
+   <a href="https://ziweek.github.io/">
+     <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=GitHub&logoColor=white&link=https://ziweek.github.io/"/>
   </a>
 </p>
 <br>
