@@ -21,39 +21,47 @@
   </a>
 </p>
 
-## Now I'm
 
-<details align="left">
-   <summary>I'm studying</summary>
+
+<details align="left" open>
+   <summary>
+     <h2>Now I'm</h2>
+   </summary>
    
-   <p align="left">
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=Rust&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=Go&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
-   </p>
-
-</details>
-
-<details align="left">
-   <summary>My Favorite is</summary>
-   
-   <p align="left">
-    <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-    <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
-   </p>
-
+>   <details align="left" open>
+>   <summary>I'm studying</summary>
+>   
+>>   <p align="left">
+>>    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=Rust&logoColor=white"/>
+>>    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=Go&logoColor=white"/>
+>>    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+>>    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
+>>   </p>
+>
+> </details>
+>
+> <details align="left" open>
+>   <summary>My Favorite is</summary>
+>   
+>>   <p align="left">
+>>   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+>>    <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/>
+>>    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
+>>    <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
+>>   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
+>>   </p>
+>>
+> </details>
 </details>
 <br/>
 
 
-
-## Tech Stack
-
 <details align="left">
+  <summary>
+    <h2>Tech Stack</h2>
+  </summary>
+  
+  <details align="left">
    <summary>Analysis</summary>
    
    <p align="left">
@@ -114,12 +122,13 @@
    </p>
 
 </details>
-<br/>
-
-## My Stats
+  
+</details>
 
 <details align="left">
-   <summary></summary>
+   <summary>
+     <h2>My Stats</h2>
+   </summary>
    
    <p align="left">
      <a href='https://github.com/anuraghazra/github-readme-stats'>
