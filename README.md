@@ -23,7 +23,7 @@
 
 ## Now I'm
 
-<details align="left" open>
+<details align="left">
    <summary>I'm studying</summary>
    
    <p align="left">
@@ -35,7 +35,7 @@
 
 </details>
 
-<details align="left" open>
+<details align="left">
    <summary>My Favorite is</summary>
    
    <p align="left">
@@ -47,8 +47,7 @@
    </p>
 
 </details>
-<br>
-
+<br/>
 
 
 
@@ -115,9 +114,7 @@
    </p>
 
 </details>
-<br>
-
-
+<br/>
 
 ## My Stats
 
