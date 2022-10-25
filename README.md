@@ -90,10 +90,9 @@ https://simpleicons.org/
 
 <p align="center">
   <a href='https://github.com/anuraghazra/github-readme-stats'>
-  <img src='https://github-readme-stats.vercel.app/api?username=ziweek&show_icons=true'>
+  <img src='https://github-readme-stats.vercel.app/api?username=ziweek&show_icons=true' width=400>
   </a>
-  <br>
   <a href='https://github.com/anuraghazra/github-readme-stats'>
-  <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ziweek&layout=compact'>
+  <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ziweek&layout=compact' width=400>
   </a>
 </p>
