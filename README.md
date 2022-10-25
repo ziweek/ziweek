@@ -62,12 +62,25 @@
      <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
      <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
      <br/>
-     <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
      <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
    </p>
 
 </details>
 
+<details align="left">
+   <summary>Visualization</summary>
+   
+   <p align="left">
+     <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=Plotly&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"/>
+     <br/>
+     <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=Figma&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Adobe-FF0000?style=flat-square&logo=Adobe&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Autodesk-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/>
+   </p>
+
+</details>
 
 <details align="left">
    <summary>Development</summary>
