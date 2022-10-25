@@ -37,7 +37,7 @@ https://simpleicons.org/
 
 
 <h3 align="center"> 「 Tech Stack 」  </h3>
-<div style="column-count: 3;">
+<div style="background: yellow;">
 <h5 align="center"> - Ai - </h5>
 <p align="center">
   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
@@ -49,8 +49,9 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
   <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
 </p>
+</div>
 
-
+<div style="float: right;  width: 50%; background: red;">
 <h5 align="center"> - Dev - </h5>
 <p align="center">
   <img src="https://img.shields.io/badge/React-2599ED?style=flat-square&logo=React&logoColor=white"/>
@@ -66,6 +67,8 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
 </p>
+</div>
+
 
 <h5 align="right"> - Ops - </h5>
 <p align="right"> 
@@ -77,7 +80,7 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
 </p>
 <br/>
-</div>
+
 
 <h3 align="center"> 「 Contact Me 」 </h3>
 <p align="center">
