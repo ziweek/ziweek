@@ -37,6 +37,7 @@ https://simpleicons.org/
 
 
 <h3 align="center"> 「 Tech Stack 」  </h3>
+<div style="column-count: 3;">
 <h5 align="center"> - Ai - </h5>
 <p align="center">
   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
@@ -66,8 +67,8 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
 </p>
 
-<h5 align="center"> - Ops - </h5>
-<p align="center"> 
+<h5 align="right"> - Ops - </h5>
+<p align="right"> 
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
   <br/>
@@ -76,6 +77,7 @@ https://simpleicons.org/
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
 </p>
 <br/>
+</div>
 
 <h3 align="center"> 「 Contact Me 」 </h3>
 <p align="center">
