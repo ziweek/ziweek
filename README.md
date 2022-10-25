@@ -87,3 +87,8 @@ https://simpleicons.org/
   </a>
 </p>
 <br>
+
+<p align="center">
+  <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ziweek&layout=compact'>
+</p>
+<br>
