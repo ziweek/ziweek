@@ -29,7 +29,7 @@
    </summary>
    
 >   <details align="left" open>
->   <summary>I'm studying</summary>
+>   <summary>Studying</summary>
 >   
 >>   <p align="left">
 >>    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=Rust&logoColor=white"/>
@@ -41,7 +41,7 @@
 > </details>
 >
 > <details align="left" open>
->   <summary>My Favorite is</summary>
+>   <summary>Using</summary>
 >   
 >>   <p align="left">
 >>   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
