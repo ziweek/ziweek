@@ -44,87 +44,18 @@
    </summary>
    
 
+<div><h3>Tech Stack</h3></div>
+<p align="center">
+    <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+     <br/> 
+     <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
+     <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
+     <br/>
+  <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightics&color=0E4491"/>
+     <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
+</p>
   
-  
-  
-  
-  
-  
-
-<details align="left">
-   <summary>
-     <h2>Now I'm</h2>
-   </summary>
-   
->   <details align="left">
->   <summary>Studying</summary>
->   
->   <p align="left">
->    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=Rust&logoColor=white"/>
->    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=Go&logoColor=white"/>
->    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
->    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
->   </p>
->
-> </details>
->
-> <details align="left">
->   <summary>Using</summary>
->   
->   <p align="left">
->    <a href="https://www.brightics.ai/" target="_blank">
->    <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightics&color=0E4491"/>
->  </a>
->   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
->    <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/>
->    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
->    <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
->   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
->   </p>
->
-> </details>
-</details>
-
-
-
-<details align="left">
-  <summary>
-    <h2>Tech Stack</h2>
-  </summary>
-  
->  <details align="left">
->   <summary>Analysis</summary>
->   
->   <p align="left">
->    <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
->     <br/> 
->     <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
->     <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
->     <br/>
->     <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
->   </p>
->
-> </details>
->
-><details align="left">
->   <summary>Visualization</summary>
->  
->   <p align="left">
->    <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
->     <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=Plotly&logoColor=white"/>
->     <img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"/>
->     <br/>
->     <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=Figma&logoColor=white"/>
->     <img src="https://img.shields.io/badge/Adobe-FF0000?style=flat-square&logo=Adobe&logoColor=white"/>
->     <img src="https://img.shields.io/badge/Autodesk-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/>
->   </p>
->
-> </details>
-
-<details align="left">
-   <summary>Development</summary>
-   
-   <p align="left">
+<p align="center">
      <img src="https://img.shields.io/badge/React-2599ED?style=flat-square&logo=React&logoColor=white"/>
      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/>
@@ -137,28 +68,30 @@
      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
 </p>
-
-</details>
-
-
-<details align="left">
-   <summary>Ops</summary>
-   
-   <p align="left"> 
+  
+<p align="center"> 
      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
      <br/>
      <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
-   </p>
-
-</details>
+ </p>
   
-</details>
+<p align="center">
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=Plotly&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"/>
+     <br/>
+     <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=Figma&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Adobe-FF0000?style=flat-square&logo=Adobe&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Autodesk-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/>
+</p>
+
+  
 
 <details align="left">
    <summary>
-     <h2>My Stats</h2>
+     <div><h3>Tech Stack</h3></div>
    </summary>
    
    <p align="left">
