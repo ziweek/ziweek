@@ -15,7 +15,7 @@
 
 
 <p align="center">
-<a href="mailto:austin.jiuk.kim@gmail.com">
+<a href="https://next-likelion.co.kr/">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=232F3E"/>
   </a>
   <a href="https://www.kubs-bada.com/">
