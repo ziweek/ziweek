@@ -23,7 +23,7 @@
 
 
 
-<details align="left" open>
+<details align="left">
    <summary>
      <h2>Now I'm</h2>
    </summary>
