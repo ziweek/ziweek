@@ -72,6 +72,9 @@
 >   <summary>Using</summary>
 >   
 >   <p align="left">
+>    <a href="https://www.brightics.ai/" target="_blank">
+>    <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightics&color=0E4491"/>
+>  </a>
 >   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 >    <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/>
 >    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
