@@ -38,6 +38,18 @@
 </p>
 
 
+<details align="center">
+   <summary>
+     <h2>About Me</h2>
+   </summary>
+   
+
+  
+  
+  
+  
+  
+  
 
 <details align="left">
    <summary>
@@ -157,4 +169,10 @@
    </p>
 
 </details>
+  
+  
+  
+  
+</details>
+
 
