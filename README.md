@@ -12,7 +12,23 @@
     <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" width=300>
   </picture>
 </p>
+
+
 <p align="center">
+<a href="mailto:austin.jiuk.kim@gmail.com">
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=232F3E"/>
+  </a>
+  <a href="www.kubs-bada.com">
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=232F3E"/>
+  </a>
+  <a href="mailto:austin.jiuk.kim@gmail.com">
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=232F3E"/>
+  </a>
+  <a href="mailto:austin.jiuk.kim@gmail.com">
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Brightician&color=232F3E"/>
+  </a>
+  <br/>
+  
   <a href="mailto:austin.jiuk.kim@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
   </a>
