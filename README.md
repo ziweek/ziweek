@@ -15,24 +15,24 @@
 
 
 <p align="center">
-<a href="https://next-likelion.co.kr/">
+<a href="https://next-likelion.co.kr/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=232F3E"/>
   </a>
-  <a href="https://www.kubs-bada.com/">
+  <a href="https://www.kubs-bada.com/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=232F3E"/>
   </a>
-  <a href="mailto:austin.jiuk.kim@gmail.com">
+  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=232F3E"/>
   </a>
-  <a href="mailto:austin.jiuk.kim@gmail.com">
+  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Brightician&color=232F3E"/>
   </a>
   <br/>
   
-  <a href="mailto:austin.jiuk.kim@gmail.com">
+  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
   </a>
-   <a href="https://ziweek.github.io/">
+   <a href="https://ziweek.github.io/" target="_blank">
      <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=GitHub&logoColor=white&link=https://ziweek.github.io/"/>
   </a>
 </p>
