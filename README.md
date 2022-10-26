@@ -52,20 +52,6 @@
 >>   </p>
 >>
 > </details>
->
-> </details>
->
-> <details align="left" open>
->   <summary>in</summary>
->   
->>   <p align="left">
->>   <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
->>    <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/>
->>    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
->>    <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
->>   </p>
->>
-> </details>
 </details>
 
 
