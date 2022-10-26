@@ -18,7 +18,7 @@
 <a href="mailto:austin.jiuk.kim@gmail.com">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=232F3E"/>
   </a>
-  <a href="www.kubs-bada.com">
+  <a href="https://www.kubs-bada.com/">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=232F3E"/>
   </a>
   <a href="mailto:austin.jiuk.kim@gmail.com">
