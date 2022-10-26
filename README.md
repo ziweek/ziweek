@@ -25,7 +25,7 @@
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=232F3E"/>
   </a>
   <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
-    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Brightician&color=232F3E"/>
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightician&color=232F3E"/>
   </a>
   <br/>
   
