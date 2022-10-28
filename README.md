@@ -21,10 +21,10 @@
   <a href="https://www.kubs-bada.com/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=232F3E"/>
   </a>
-  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
+  <a href="https://kugods-web-service-umzd-87hc96xe7-ziweek.vercel.app/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=232F3E"/>
   </a>
-  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
+  <a href="https://brightician-web-service.vercel.app/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightician&color=232F3E"/>
   </a>
   <br/>
