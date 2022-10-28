@@ -89,12 +89,12 @@
 
   
 
-<details align="left">
+<details align="center">
    <summary>
-     <div><h3>Tech Stack</h3></div>
+     <div</div>
    </summary>
    
-   <p align="left">
+   <p align="center">
      <a href='https://github.com/anuraghazra/github-readme-stats'>
      <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ziweek&layout=compact' width=400>
      </a>
