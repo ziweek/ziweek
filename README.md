@@ -86,14 +86,9 @@
      <img src="https://img.shields.io/badge/Adobe-FF0000?style=flat-square&logo=Adobe&logoColor=white"/>
      <img src="https://img.shields.io/badge/Autodesk-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/>
 </p>
-
+<br/>
   
 
-<details align="center">
-   <summary>
-     <div</div>
-   </summary>
-   
    <p align="center">
      <a href='https://github.com/anuraghazra/github-readme-stats'>
      <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ziweek&layout=compact' width=400>
@@ -103,8 +98,6 @@
      <img src='https://github-readme-stats.vercel.app/api?username=ziweek&show_icons=true' width=400>
      </a>
    </p>
-
-</details>
   
   
   
