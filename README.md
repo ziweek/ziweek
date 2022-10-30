@@ -16,16 +16,16 @@
 
 <p align="center">
 <a href="https://next-likelion.co.kr/" target="_blank">
-    <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=232F3E"/>
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=34567C"/>
   </a>
   <a href="https://www.kubs-bada.com/" target="_blank">
-    <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=232F3E"/>
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=34567C"/>
   </a>
   <a href="https://kugods-web-service-umzd-87hc96xe7-ziweek.vercel.app/" target="_blank">
-    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=232F3E"/>
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=34567C"/>
   </a>
   <a href="https://brightician-web-service.vercel.app/" target="_blank">
-    <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightician&color=232F3E"/>
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightician&color=34567C"/>
   </a>
   <br/>
   
