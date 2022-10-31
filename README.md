@@ -18,7 +18,7 @@
 <a href="https://next-likelion.co.kr/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=34567C"/>
   </a>
-  <a href="https://bada-web-service-i7jso3zur-ziweek.vercel.app" target="_blank">
+  <a href="https://bada-web-service.vercel.app/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=34567C"/>
   </a>
   <a href="https://kugods-web-service-umzd-87hc96xe7-ziweek.vercel.app/" target="_blank">
