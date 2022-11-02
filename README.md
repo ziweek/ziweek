@@ -2,7 +2,7 @@
 <br/>
 
 ### <div align="center">Hi, there!</div>
-### <div align="center">I'm Austin Jiuk Kim.</div>
+### <div align="center">I'm Jiuk Kim.</div>
 
 
 <p align="center">
