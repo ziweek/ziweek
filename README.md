@@ -24,6 +24,7 @@
   <a href="https://kugods-web-service-umzd-87hc96xe7-ziweek.vercel.app/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=34567C"/>
   </a>
+  <br/>
   <a href='https://ku3ds-web-service.vercel.app'>
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=ku3ds&name=KU-3DS&color=34567C"/>
   </a>
