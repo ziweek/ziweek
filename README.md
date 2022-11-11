@@ -22,7 +22,7 @@
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=bada&name=bada&color=34567C"/>
   </a>
   <a href="https://bada-web-service.vercel.app/" target="_blank">
-    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=kugods&color=34567C"/>
+    <img src="https://github-badge-maker.herokuapp.com/badge?logo=gdsc&name=Kugods&color=34567C"/>
   </a>
   <br/>
   <a href='https://ku3ds-web-service.vercel.app'>
