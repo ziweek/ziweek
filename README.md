@@ -6,13 +6,19 @@
 
 
 <p align="center">
+  <img src='./src/craby.png' height='300'>
+</p>
+
+<!--
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/99459331/154815441-9c45cc41-47b2-4054-834b-5fb082d37f1c.gif">
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/99459331/154815600-359f1ed4-5b9c-4606-857b-a1556816e9d6.gif">
     <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" width=300>
   </picture>
-</p>
+</p>![image](https://user-images.githubusercontent.com/99459331/203001800-8a00ca54-c166-428c-9c36-9627e5f0f691.png)
 
+-->
 
 <p align="center">
 <a href="https://next-likelion.co.kr/" target="_blank">
