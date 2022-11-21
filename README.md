@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src='./src/craby.png' height='300'>
+  <img src='./src/craby_moving.png' height='300'>
 </p>
 
 <!--
