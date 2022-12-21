@@ -20,6 +20,7 @@
 
 -->
 
+<!--
 <p align="center">
 <a href="https://next-likelion.co.kr/" target="_blank">
     <img src="https://github-badge-maker.herokuapp.com/badge?logo=likelion&name=Likelion&color=34567C"/>
@@ -47,6 +48,21 @@
   </a>
 </p>
 
+-->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+  <br/>
+  
+  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
+  </a>
+   <a href="https://ziweek.github.io/" target="_blank">
+     <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=GitHub&logoColor=white&link=https://ziweek.github.io/"/>
+  </a>
+</p>
 
 <details align="center">
    <summary>
