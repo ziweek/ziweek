@@ -4,10 +4,13 @@
 ### <div align="center">Hi, there!</div>
 ### <div align="center">I'm Jiuk Kim.</div>
 
+<br/>
 
+<!--
 <p align="center">
   <img src='./src/craby_moving.png' height='300'>
 </p>
+-->
 
 <!--
 <p align="center">
