@@ -60,11 +60,16 @@
   <br/>
   
   <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
   </a>
+  <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=alex.jiuk.kim@gmail.com"/>
+  </a>
+  <!--
    <a href="https://ziweek.github.io/" target="_blank">
      <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=GitHub&logoColor=white&link=https://ziweek.github.io/"/>
   </a>
+-->
 </p>
 
 <details align="center">
