@@ -59,7 +59,7 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
   <br/>
   
-  <a href="mailto:austin.jiuk.kim@gmail.com" target="_blank">
+  <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
   </a>
    <a href="https://ziweek.github.io/" target="_blank">
