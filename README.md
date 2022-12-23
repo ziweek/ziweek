@@ -57,6 +57,7 @@
   <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/axum-000000?style=flat-square&logo=rust&logoColor=white"/>
   <br/>
   
   <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
