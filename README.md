@@ -59,10 +59,10 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
   <br/>
   
-  <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
+  <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=austin.jiuk.kim@gmail.com"/>
   </a>
-  <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
+  <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white"/>
   </a>
   <!--
