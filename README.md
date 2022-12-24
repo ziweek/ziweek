@@ -52,7 +52,6 @@
 </p>
 
 -->
-
 <p align="center">
   <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
@@ -77,16 +76,14 @@
    <summary>
      <h2>About Me</h2>
    </summary>
-   
 
 <div><h3>Tech Stack</h3></div>
 <p align="center">
-    <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-     <br/> 
+     <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
      <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
      <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
      <br/>
-  <img src="https://github-badge-maker.herokuapp.com/badge?logo=brightics&name=Brightics&color=0E4491"/>
+     <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
      <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
 </p>
   
@@ -96,12 +93,16 @@
      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/>
      <br/>
      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> 
-     <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/> 
      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+    <img src="https://img.shields.io/badge/axum-000000?style=flat-square&logo=rust&logoColor=white"/>
      <br/>
      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
+     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+     <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
 </p>
   
 <p align="center"> 
@@ -111,16 +112,6 @@
      <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
  </p>
-  
-<p align="center">
-    <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=Plotly&logoColor=white"/>
-     <br/>
-     <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=Figma&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Adobe-FF0000?style=flat-square&logo=Adobe&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Autodesk-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/>
-</p>
 <br/>
   
 
