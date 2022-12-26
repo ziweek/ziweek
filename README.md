@@ -77,7 +77,13 @@
      <h2>About Me</h2>
    </summary>
 
-<div><h3>Tech Stack</h3></div>
+<div><h4>Playground</h4></div>
+<p align="center">
+     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
+</p>
+  
+<div><h4>Tech Stack</h4></div>
 <p align="center">
      <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
      <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
@@ -111,6 +117,8 @@
      <br/>
      <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
+     <br/>
+     <img src="https://img.shields.io/badge/GitHub%20Actions-181717?style=flat-square&logo=GitHub%20Actions&logoColor=white"/>
  </p>
 <br/>
   
