@@ -73,7 +73,7 @@
 
 <details align="center">
    <summary>
-     <h2>About Me</h2>
+     <h2></h2>
    </summary>
 
 <div><h4>Playground</h4></div>
