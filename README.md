@@ -124,7 +124,8 @@
      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
      <br/>
      <img src="https://img.shields.io/badge/GitHub%20Actions-181717?style=flat-square&logo=GitHub%20Actions&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
+     <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=GitLab&logoColor=white"/>
  </p>
 <br/>
 
