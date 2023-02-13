@@ -60,13 +60,13 @@
   <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
-  <br/>
-  <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
+<!--   <br/> -->
+<!--   <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/>
   </a>
   <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white"/>
-  </a>
+  </a> -->
   <!--
    <a href="https://ziweek.github.io/" target="_blank">
      <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=GitHub&logoColor=white&link=https://ziweek.github.io/"/>
@@ -84,7 +84,19 @@
 </p>
 
 
-
+<p align="center">
+  <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/>
+  </a>
+  <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white"/>
+  </a>
+  <!--
+   <a href="https://ziweek.github.io/" target="_blank">
+     <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=GitHub&logoColor=white&link=https://ziweek.github.io/"/>
+  </a>
+-->
+</p>
 
 
 <details align="center">
