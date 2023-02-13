@@ -53,6 +53,10 @@
 
 -->
 <p align="center">
+  <img src="https://img.shields.io/badge/React-2599ED?style=flat-square&logo=React&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/>
+  <br/>
   <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
@@ -122,6 +126,7 @@
      <br/>
      <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
      <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white"/>
      <br/>
      <img src="https://img.shields.io/badge/GitHub%20Actions-181717?style=flat-square&logo=GitHub%20Actions&logoColor=white"/>
      <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
