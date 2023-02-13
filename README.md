@@ -74,6 +74,19 @@
 -->
 </p>
 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=Ethereum&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=Solidity&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=WebAssembly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
+</p>
+
+
+
+
+
 <details align="center">
    <summary>
      <h2></h2>
@@ -131,14 +144,6 @@
      <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=GitLab&logoColor=white"/>
  </p>
 <br/>
-
-<p align="center"> 
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
-</p> 
-  
-<p align="center"> 
-     <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=Solidity&logoColor=white"/>
- </p>
 <br/>
   
 
