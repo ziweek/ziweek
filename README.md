@@ -61,6 +61,10 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
   <br/>
+  <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/App%20Store-0D96F6?style=flat-square&logo=App%20Store&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google%20Play-414141?style=flat-square&logo=Google%20Play&logoColor=white"/>
+  <br/>
   <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/>
   </a>
