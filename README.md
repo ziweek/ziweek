@@ -1,8 +1,17 @@
 
 <br/>
 
-### <div align="center">Hi, there!</div>
-### <div align="center">I'm Jiuk Kim.</div>
+### <div align="center">Hi, there! <br/> I'm Jiuk Kim.</div>
+
+
+<div align="center"> 
+  <a href='https://leetcode.com/ziwook/' target="_blank">
+     <img src="https://img.shields.io/badge/Visit%20My%20CV%20Page-ffffff?style=flat-square&logo=notion&logoColor=black"/>
+  </a>
+</div>
+
+<br/>
+<br/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Scikit&ndash;Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
@@ -23,107 +32,5 @@
   </a>
 </p>
 
-
-
-
-
-
-<details align="center">
-   <summary>
-     <h2></h2>
-   </summary>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-2599ED?style=flat-square&logo=React&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
-</p>
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/App%20Store-0D96F6?style=flat-square&logo=App%20Store&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google%20Play-414141?style=flat-square&logo=Google%20Play&logoColor=white"/>
-  <br/>
-  <a href="https://www.linkedin.com/in/alex-jiuk-kim-42248325a/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/>
-  </a>
-  <a href="mailto:alex.jiuk.kim@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white"/>
-  </a>
-</p>
-
-
-<div><h4>Playground</h4></div>
-<p align="center">
-  <a href='https://leetcode.com/ziwook/' target="_blank">
-     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=white"/>
-  </a>
-  <a href='https://www.kaggle.com/ziwook' target="_blank">
-     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
-  </a>
-</p>
-  
-<div><h4>Tech Stack</h4></div>
-<p align="center">
-     <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-     <img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=TensorFlow&logoColor=white"/>
-     <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=PyTorch&logoColor=white"/> 
-     <br/>
-     <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=Google%20Analytics&logoColor=white"/>
-</p>
-  
-<p align="center">
-<!--      <img src="https://img.shields.io/badge/React-2599ED?style=flat-square&logo=React&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/>
-     <br/> -->
-     <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> 
-     <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
-<!--     <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> -->
-    <img src="https://img.shields.io/badge/axum-000000?style=flat-square&logo=rust&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=Go&logoColor=white"/>
-     <br/>
-     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
-     <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
-</p>
-  
-<p align="center"> 
-     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Portainer-13BEF9?style=flat-square&logo=Portainer&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
-     <br/>
-     <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
- </p>
-<br/>
-<br/>
-  
-
-   <p align="center">
-     <a href='https://github.com/anuraghazra/github-readme-stats'>
-     <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ziweek&layout=compact' width=400>
-     </a>
-      <br/>
-     <a href='https://github.com/anuraghazra/github-readme-stats'>
-     <img src='https://github-readme-stats.vercel.app/api?username=ziweek&show_icons=true' width=400>
-     </a>
-   </p>
-  
-  
-  
-  
-</details>
 
 
