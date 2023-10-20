@@ -7,8 +7,8 @@
 <div align="center"> 
   <a href='https://leetcode.com/ziwook/' target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit%20My%20CV%20Page-000000?style=flat-square&logo=notion&logoColor=white">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Visit%20My%20CV%20Page-ffffff?style=flat-square&logo=notion&logoColor=black">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit%20my%20CV%20page-0E1116?style=flat-square&logo=notion&logoColor=white">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Visit%20my%20CV%20page-ffffff?style=flat-square&logo=notion&logoColor=black">
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
