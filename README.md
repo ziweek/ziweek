@@ -5,7 +5,7 @@
 
 
 <div align="center"> 
-  <a href='https://leetcode.com/ziwook/' target="_blank">
+  <a href='https://amplified-purpose-11c.notion.site/CV_KOR-6811bd7ef57c4483a3dff7f524dda69f?pvs=4' target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit%20my%20CV%20page-0E1116?style=flat-square&logo=notion&logoColor=white">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Visit%20my%20CV%20page-ffffff?style=flat-square&logo=notion&logoColor=black">
