@@ -31,10 +31,10 @@
 </p>
 
 <p align="center"> 
-  <a href='https://www.kaggle.com/ziwook' target="_blank">
+  <a href='' target="_blank">
      <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
   </a>
-  <a href='https://leetcode.com/ziwook/' target="_blank">
+  <a href='' target="_blank">
      <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=LeetCode&logoColor=white"/>
   </a>
 </p>
