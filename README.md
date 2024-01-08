@@ -44,6 +44,9 @@
   <img src="https://img.shields.io/badge/Tableau-003A70?style=flat-square&logo=tableau&logoColor=white"/>
   <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white"/>
   <img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Weights%20&%20Biases-dea500?style=flat-square&logo=weightsandbiases&logoColor=white&text=white"/>
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=MLflow&logoColor=white"/>
 </p>
 
 <p align="center"> 
