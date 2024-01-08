@@ -12,9 +12,15 @@
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
+  <br/>
+  <a href='' target="_blank">
+     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
+  </a>
+  <a href='' target="_blank">
+     <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=LeetCode&logoColor=white"/>
+  </a>
 </div>
 
-<br/>
 <br/>
 
 <p align="center">
@@ -48,16 +54,6 @@
   <img src="https://img.shields.io/badge/Weights%20&%20Biases-dea500?style=flat-square&logo=weightsandbiases&logoColor=white&text=white"/>
   <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=MLflow&logoColor=white"/>
 </p>
-
-<p align="center"> 
-  <a href='' target="_blank">
-     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
-  </a>
-  <a href='' target="_blank">
-     <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=LeetCode&logoColor=white"/>
-  </a>
-</p>
-
 
 <br/>
 
