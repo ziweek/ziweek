@@ -13,7 +13,9 @@
     </picture>
   </a>
   <br/>
-  <img src="https://img.shields.io/badge/Welcome%20to%20my%20Blog-20C997?style=flat-square&logo=velog&logoColor=white"/>
+  <a href='https://velog.io/@ziweek/posts' target="_blank">
+    <img src="https://img.shields.io/badge/Welcome%20to%20my%20Blog-20C997?style=flat-square&logo=velog&logoColor=white"/>
+  </a>
 </div>
 
 <!--
