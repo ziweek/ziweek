@@ -12,6 +12,8 @@
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
+  <br/>
+  <img src="https://img.shields.io/badge/Welcome%20to%20my%20Blog-20C997?style=flat-square&logo=velog&logoColor=white"/>
 </div>
 
 <!--
