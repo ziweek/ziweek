@@ -7,14 +7,17 @@
 <div align="center"> 
   <a href='https://amplified-purpose-11c.notion.site/CV_KOR-6811bd7ef57c4483a3dff7f524dda69f?pvs=4' target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit%20my%20CV%20page-0E1116?style=flat-square&logo=notion&logoColor=white">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Visit%20my%20CV%20page-ffffff?style=flat-square&logo=notion&logoColor=black">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CV%20page-0E1116?style=flat-square&logo=notion&logoColor=white">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/CV%20page-ffffff?style=flat-square&logo=notion&logoColor=black">
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
-  <br/>
   <a href='https://velog.io/@ziweek/posts' target="_blank">
-    <img src="https://img.shields.io/badge/Welcome%20to%20my%20Blog-20C997?style=flat-square&logo=velog&logoColor=white"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My%20Blog-0E1116?style=flat-square&logo=velog&logoColor=20C997">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My%20Blog-ffffff?style=flat-square&logo=velog&logoColor=20C997">
+      <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
+    </picture>
   </a>
 </div>
 
