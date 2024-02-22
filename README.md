@@ -12,7 +12,7 @@
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
-  <a href='https://velog.io/@ziweek/posts' target="_blank">
+  <a href='www.linkedin.com/in/jiuk-kim-42248325a' target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My%20Career-0E1116?style=flat-square&logo=linkedin&logoColor=0A66C2">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My%20Career-ffffff?style=flat-square&logo=linkedin&logoColor=0A66C2">
