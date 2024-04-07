@@ -1,28 +1,28 @@
 
 <br/>
 
-### <div align="center">Hi, there! <br/> I'm Jiuk Alex Kim.</div>
+### <div align="center">Hello, there! <br/> I'm JIUK KIM.</div>
 
 
 <div align="center"> 
   <a href='https://amplified-purpose-11c.notion.site/CV_KOR-6811bd7ef57c4483a3dff7f524dda69f?pvs=4' target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My%20Résumé-0E1116?style=flat-square&logo=notion&logoColor=white">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My%20Resume-ffffff?style=flat-square&logo=notion&logoColor=black">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20My%20Résumé-0E1116?style=flat-square&logo=notion&logoColor=white">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%20My%20Resume-ffffff?style=flat-square&logo=notion&logoColor=black">
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
   <a href='https://www.linkedin.com/in/jiuk-kim-42248325a/' target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My%20Career-0E1116?style=flat-square&logo=linkedin&logoColor=0A66C2">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My%20Career-ffffff?style=flat-square&logo=linkedin&logoColor=0A66C2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20My%20LinkedIn-0E1116?style=flat-square&logo=linkedin&logoColor=0A66C2">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%20My%20LinkedIn-ffffff?style=flat-square&logo=linkedin&logoColor=0A66C2">
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
   <a href='https://velog.io/@ziweek/posts' target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My%20Blog-0E1116?style=flat-square&logo=velog&logoColor=20C997">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My%20Blog-ffffff?style=flat-square&logo=velog&logoColor=20C997">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20My%20Gmail-0E1116?style=flat-square&logo=gmail&logoColor=EA4335">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%20My%20Gmail-ffffff?style=flat-square&logo=gmail&logoColor=EA4335">
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
