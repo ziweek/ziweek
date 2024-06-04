@@ -5,6 +5,7 @@
 
 
 <div align="center"> 
+  <!--
   <a href='https://amplified-purpose-11c.notion.site/CV_KOR-6811bd7ef57c4483a3dff7f524dda69f?pvs=4' target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20My%20Résumé-0E1116?style=flat-square&logo=notion&logoColor=white">
@@ -12,6 +13,7 @@
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
+  -->
   <a href='https://www.linkedin.com/in/jiuk-kim-42248325a/' target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20My%20LinkedIn-0E1116?style=flat-square&logo=linkedin&logoColor=0A66C2">
