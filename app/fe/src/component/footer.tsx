@@ -15,7 +15,7 @@ export default function Footer(props: any) {
           <p className="text-sm font-bold">{props.title}</p>
           <p className="text-tiny">{props.subtitle}</p>
         </div>
-        <div className="flex h-full flex-row gap-1">
+        <div className="flex h-full flex-row gap-2">
           <Button
             isIconOnly
             color={"default"}
@@ -25,7 +25,7 @@ export default function Footer(props: any) {
               window.open("https://github.com/ziweek");
             }}
           >
-            <IconGithub fill="#000" width={"20px"}></IconGithub>
+            <IconGithub fill="#000" width={"25px"}></IconGithub>
           </Button>
           <Button
             isIconOnly
@@ -36,7 +36,7 @@ export default function Footer(props: any) {
               window.open("https://www.linkedin.com/in/jiuk-kim-42248325a/");
             }}
           >
-            <IconLinkedIn fill="#000" width={"20px"}></IconLinkedIn>
+            <IconLinkedIn fill="#000" width={"25px"}></IconLinkedIn>
           </Button>
         </div>
       </div>

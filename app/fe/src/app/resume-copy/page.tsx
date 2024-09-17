@@ -165,6 +165,12 @@ export default function Home() {
     },
   ]);
 
+  // const queryawardOption = useQuery<any>({
+  //   queryKey: ["awardOption"],
+  //   queryFn: () => awardOption,
+  //   refetchOnMount: true,
+  // });
+
   useEffect(() => {
     AOS.init({ once: true, mirror: false });
     const checkResize = () => {
@@ -197,12 +203,12 @@ export default function Home() {
                 radius={"none"}
                 classNames={{ cursor: "bg-[#E6E6E7]" }}
               >
-                {/* <>Profile</> */}
+                {/* <>상장 만들기</> */}
                 <Tab
-                  key="Profile"
+                  key="상장 만들기"
                   title={
                     <Tooltip
-                      content={"Profile"}
+                      content={"상장 만들기 탭"}
                       showArrow
                       isOpen={
                         modalOption.isTutorialOpen &&
@@ -213,288 +219,333 @@ export default function Home() {
                       size={"lg"}
                       className="max-w-[150px]"
                     >
-                      <p>Profile</p>
+                      <p>상장 만들기</p>
                     </Tooltip>
                   }
                 >
-                  <div className="flex flex-col gap-8 w-full items-center pt-4">
-                    <div className="bg-gradient-to-br from-[#0081FF] to-[#50B1FF] p-1 w-fit h-fit rounded-xl">
-                      <Accordion
-                        variant={"light"}
-                        className="bg-white rounded-lg"
+                  <div>
+                    <div className="flex flex-col gap-8 w-full items-center pt-4">
+                      {/* <div
+                        data-aos="fade-up"
+                        data-aos-duration={300}
+                        id="award"
+                        className="relative w-[300px] aspect-[5/7] flex flex-col justify-center items-center p-8 py-10 h-[420px]"
                       >
-                        <AccordionItem
-                          key="1"
-                          aria-label="Gemma 모델 활용하기"
-                          startContent={
-                            <Image
-                              src={"/logo/logo-gemma.png"}
-                              width={100}
-                              height={100}
-                              alt="logo-gemma.png"
-                              className="w-[60px]"
-                            ></Image>
-                          }
-                          title="Gemma 모델 활용하기"
-                          subtitle="Google Gemma 모델로 아이디어를 발굴해보는 것은 어떨까요?"
-                          classNames={{
-                            subtitle: "break-keep",
+                        <div
+                          className="relative grid grid-cols-3 grid-rows-4 h-full gap-4 content-between z-10"
+                          style={{
+                            gridTemplateRows: "auto auto 1fr auto",
                           }}
                         >
-                          <div className="flex space-y-4 flex-col w-full h-fit py-2">
-                            <Textarea
-                              radius={"sm"}
-                              // minRows={3}
-                              // maxRows={3}
-                              variant={"flat"}
-                              size={"lg"}
-                              classNames={{
-                                inputWrapper:
-                                  "bg-gradient-to-br from-[#0081FF10] to-[#50B1FF10]",
-                              }}
-                            ></Textarea>
-                            <p className="text-center w-full text-xs">
-                              🚧 아직 개발 중!
+                          <p className="col-span-3 w-full text-center text-xl font-light">
+                            {awardOption.awardValues.title}
+                          </p>
+                          <p className="col-span-3 w-full text-right text-md font-light">
+                            {awardOption.awardValues.winner}
+                          </p>
+                          <p className="col-span-3 w-full text-center self-center text-lg font-light">
+                            {awardOption.awardValues.description}
+                          </p>
+                          <div className="flex flex-col w-full items-center col-span-3">
+                            <p className="w-full text-center text-md font-light">
+                              {awardOption.awardValues.publisher}
                             </p>
+                            <p className="w-full text-center text-md font-light">
+                              {awardOption.awardValues.date}
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          className="absolute w-[200%] scale-50 z-0 aspect-[5/7] bg-contain flex flex-col justify-center items-center p-8 py-10 border-2 drop-shadow-sm"
+                          style={{
+                            backgroundImage:
+                              awardOption.cornerShapeContent.filter(
+                                (c: any) =>
+                                  c.key == awardOption.awardValues.cornerShape
+                              )[0].src,
+                          }}
+                        ></div>
+                      </div> */}
+                      <div className="bg-gradient-to-br from-[#0081FF] to-[#50B1FF] p-1 w-fit h-fit rounded-xl">
+                        <Accordion
+                          variant={"light"}
+                          className="bg-white rounded-lg"
+                        >
+                          <AccordionItem
+                            key="1"
+                            aria-label="Gemma 모델 활용하기"
+                            startContent={
+                              <Image
+                                src={"/logo/logo-gemma.png"}
+                                width={100}
+                                height={100}
+                                alt="logo-gemma.png"
+                                className="w-[60px]"
+                              ></Image>
+                            }
+                            title="Gemma 모델 활용하기"
+                            subtitle="Google Gemma 모델로 아이디어를 발굴해보는 것은 어떨까요?"
+                            classNames={{
+                              subtitle: "break-keep",
+                            }}
+                          >
+                            <div className="flex space-y-4 flex-col w-full h-fit py-2">
+                              <Textarea
+                                radius={"sm"}
+                                // minRows={3}
+                                // maxRows={3}
+                                variant={"flat"}
+                                size={"lg"}
+                                classNames={{
+                                  inputWrapper:
+                                    "bg-gradient-to-br from-[#0081FF10] to-[#50B1FF10]",
+                                }}
+                              ></Textarea>
+                              <p className="text-center w-full text-xs">
+                                🚧 아직 개발 중!
+                              </p>
+                              <Button
+                                radius={"sm"}
+                                variant={"faded"}
+                                className="h-[60px] w-full bg-gradient-to-br from-[#0081FF] to-[#50B1FF] text-white font-bold border-0"
+                                fullWidth
+                                size={"lg"}
+                                isLoading={false}
+                                onPress={() => {
+                                  // const target =
+                                  //   document.getElementById("award");
+                                  // if (!target) {
+                                  //   return alert("저장에 실패");
+                                  // }
+                                  // html2canvas(target, {
+                                  //   //   width: 2480,
+                                  //   //   height: 3508,
+                                  //   scale: 3,
+                                  // }).then((canvas) => {
+                                  //   const link = document.createElement("a");
+                                  //   document.body.appendChild(link);
+                                  //   link.href = canvas.toDataURL("image/png");
+                                  //   link.download = "award.png"; // 다운로드 이미지 파일 이름
+                                  //   link.click();
+                                  //   document.body.removeChild(link);
+                                  // });
+                                }}
+                              >
+                                <p>Gemma, 정답을 알려줘!</p>
+                              </Button>
+                            </div>
+                          </AccordionItem>
+                        </Accordion>
+                      </div>
+                      {/*  */}
+                      <AwardVertical awardOption={awardOption}></AwardVertical>
+                      {/*  */}
+                      <div className="w-full space-y-2 h-fit">
+                        <p>상장 테두리 양식</p>
+                        <Dropdown>
+                          <DropdownTrigger>
                             <Button
-                              radius={"sm"}
+                              // label={e.label}
+                              // placeholder={e.placeholder}
+                              // labelPlacement={"outside"}
+                              // key={i}
+                              // isClearable
+                              radius={"none"}
                               variant={"faded"}
-                              className="h-[60px] w-full bg-gradient-to-br from-[#0081FF] to-[#50B1FF] text-white font-bold border-0"
+                              className="text-sm w-full"
                               fullWidth
                               size={"lg"}
-                              isLoading={false}
-                              onPress={() => {
-                                // const target =
-                                //   document.getElementById("award");
-                                // if (!target) {
-                                //   return alert("저장에 실패");
-                                // }
-                                // html2canvas(target, {
-                                //   //   width: 2480,
-                                //   //   height: 3508,
-                                //   scale: 3,
-                                // }).then((canvas) => {
-                                //   const link = document.createElement("a");
-                                //   document.body.appendChild(link);
-                                //   link.href = canvas.toDataURL("image/png");
-                                //   link.download = "award.png"; // 다운로드 이미지 파일 이름
-                                //   link.click();
-                                //   document.body.removeChild(link);
-                                // });
-                              }}
+                              // description={`${e.label}은 ${e.max}글자까지 입력이 가능합니다.`}
+                              // onChange={(i: any) => {
+                              //   if (i.target.value.length <= [e.max]) {
+                              //     setAwardOption({
+                              //       ...awardOption,
+                              //       awardValues: {
+                              //         ...awardOption.awardValues,
+                              //         [e.key]: i.target.value,
+                              //       },
+                              //     });
+                              //   }
+                              // }}
                             >
-                              <p>Gemma, 정답을 알려줘!</p>
+                              {awardOption.awardValues.cornerShape}
                             </Button>
-                          </div>
-                        </AccordionItem>
-                      </Accordion>
-                    </div>
-                    {/*  */}
-                    <AwardVertical awardOption={awardOption}></AwardVertical>
-                    {/*  */}
-                    <div className="w-full space-y-2 h-fit">
-                      <p>상장 테두리 양식</p>
-                      <Dropdown>
-                        <DropdownTrigger>
-                          <Button
-                            // label={e.label}
-                            // placeholder={e.placeholder}
-                            // labelPlacement={"outside"}
-                            // key={i}
-                            // isClearable
+                          </DropdownTrigger>
+                          <DropdownMenu
+                            aria-label="Static Actions"
+                            selectionMode={"single"}
+                            disallowEmptySelection
+                            selectedKeys={[awardOption.awardValues.cornerShape]}
+                            onSelectionChange={(keys: SharedSelection) => {
+                              setAwardOption({
+                                ...awardOption,
+                                awardValues: {
+                                  ...awardOption.awardValues,
+                                  cornerShape: keys.currentKey,
+                                },
+                              });
+                            }}
+                            className="w-full"
+                          >
+                            {awardOption.cornerShapeContent.map(
+                              (e: any, i: number) => {
+                                return (
+                                  <DropdownItem key={e.key}>
+                                    {e.key}
+                                  </DropdownItem>
+                                );
+                              }
+                            )}
+                          </DropdownMenu>
+                        </Dropdown>
+                      </div>
+                      {awardOption.awardContent.map((e: any, i: number) => {
+                        return (
+                          <Input
+                            label={e.label}
+                            placeholder={e.placeholder}
+                            labelPlacement={"outside"}
+                            key={i}
+                            isClearable
                             radius={"none"}
                             variant={"faded"}
                             className="text-sm w-full"
                             fullWidth
                             size={"lg"}
-                            // description={`${e.label}은 ${e.max}글자까지 입력이 가능합니다.`}
-                            // onChange={(i: any) => {
-                            //   if (i.target.value.length <= [e.max]) {
-                            //     setAwardOption({
-                            //       ...awardOption,
-                            //       awardValues: {
-                            //         ...awardOption.awardValues,
-                            //         [e.key]: i.target.value,
-                            //       },
-                            //     });
-                            //   }
-                            // }}
+                            description={`${e.label}은 ${e.max}글자까지 입력이 가능합니다.`}
+                            onChange={(i: any) => {
+                              if (i.target.value.length <= [e.max]) {
+                                setAwardOption({
+                                  ...awardOption,
+                                  awardValues: {
+                                    ...awardOption.awardValues,
+                                    [e.key]: i.target.value,
+                                  },
+                                });
+                              }
+                            }}
                           >
-                            {awardOption.awardValues.cornerShape}
-                          </Button>
-                        </DropdownTrigger>
-                        <DropdownMenu
-                          aria-label="Static Actions"
-                          selectionMode={"single"}
-                          disallowEmptySelection
-                          selectedKeys={[awardOption.awardValues.cornerShape]}
-                          onSelectionChange={(keys: SharedSelection) => {
-                            setAwardOption({
-                              ...awardOption,
-                              awardValues: {
-                                ...awardOption.awardValues,
-                                cornerShape: keys.currentKey,
-                              },
-                            });
-                          }}
-                          className="w-full"
-                        >
-                          {awardOption.cornerShapeContent.map(
-                            (e: any, i: number) => {
-                              return (
-                                <DropdownItem key={e.key}>{e.key}</DropdownItem>
-                              );
-                            }
-                          )}
-                        </DropdownMenu>
-                      </Dropdown>
-                    </div>
-                    {awardOption.awardContent.map((e: any, i: number) => {
-                      return (
-                        <Input
-                          label={e.label}
-                          placeholder={e.placeholder}
-                          labelPlacement={"outside"}
-                          key={i}
-                          isClearable
+                            <div className="w-full h-full flex flex-row justify-between items-center font-bold">
+                              <div>{e.icon}</div>
+                              {e.text}
+                              <div className="opacity-0">{e.icon}</div>
+                            </div>
+                          </Input>
+                        );
+                      })}
+                      <DatePicker
+                        label={"발행 일자"}
+                        labelPlacement={"outside"}
+                        radius={"none"}
+                        variant={"faded"}
+                        className="text-sm w-full"
+                        fullWidth
+                        size={"lg"}
+                        defaultValue={today(getLocalTimeZone())}
+                        onChange={(e: any) => {
+                          setAwardOption({
+                            ...awardOption,
+                            awardValues: {
+                              ...awardOption.awardValues,
+                              date: `${e.year}년 ${e.month}월 ${e.day}일`,
+                            },
+                          });
+                        }}
+                      ></DatePicker>
+
+                      <div className="flex flex-col space-y-4 w-full py-4">
+                        <Button
                           radius={"none"}
                           variant={"faded"}
-                          className="text-sm w-full"
+                          className="h-[60px] w-full bg-black text-white font-bold border-0"
                           fullWidth
                           size={"lg"}
-                          description={`${e.label}은 ${e.max}글자까지 입력이 가능합니다.`}
-                          onChange={(i: any) => {
-                            if (i.target.value.length <= [e.max]) {
-                              setAwardOption({
-                                ...awardOption,
-                                awardValues: {
-                                  ...awardOption.awardValues,
-                                  [e.key]: i.target.value,
-                                },
-                              });
+                          onPress={() => {
+                            const target = document.getElementById("award");
+                            if (!target) {
+                              return alert("저장에 실패");
                             }
+                            html2canvas(target, {
+                              //   width: 2480,
+                              //   height: 3508,
+                              scale: 3,
+                            }).then((canvas) => {
+                              const link = document.createElement("a");
+                              document.body.appendChild(link);
+                              link.href = canvas.toDataURL("image/png");
+                              link.download = "award.png"; // 다운로드 이미지 파일 이름
+                              link.click();
+                              document.body.removeChild(link);
+                            });
                           }}
                         >
-                          <div className="w-full h-full flex flex-row justify-between items-center font-bold">
-                            <div>{e.icon}</div>
-                            {e.text}
-                            <div className="opacity-0">{e.icon}</div>
-                          </div>
-                        </Input>
-                      );
-                    })}
-                    <DatePicker
-                      label={"발행 일자"}
-                      labelPlacement={"outside"}
-                      radius={"none"}
-                      variant={"faded"}
-                      className="text-sm w-full"
-                      fullWidth
-                      size={"lg"}
-                      defaultValue={today(getLocalTimeZone())}
-                      onChange={(e: any) => {
-                        setAwardOption({
-                          ...awardOption,
-                          awardValues: {
-                            ...awardOption.awardValues,
-                            date: `${e.year}년 ${e.month}월 ${e.day}일`,
-                          },
-                        });
-                      }}
-                    ></DatePicker>
-
-                    <div className="flex flex-col space-y-4 w-full py-4">
-                      <Button
-                        radius={"none"}
-                        variant={"faded"}
-                        className="h-[60px] w-full bg-black text-white font-bold border-0"
-                        fullWidth
-                        size={"lg"}
-                        onPress={() => {
-                          const target = document.getElementById("award");
-                          if (!target) {
-                            return alert("저장에 실패");
-                          }
-                          html2canvas(target, {
-                            //   width: 2480,
-                            //   height: 3508,
-                            scale: 3,
-                          }).then((canvas) => {
-                            const link = document.createElement("a");
-                            document.body.appendChild(link);
-                            link.href = canvas.toDataURL("image/png");
-                            link.download = "award.png"; // 다운로드 이미지 파일 이름
-                            link.click();
-                            document.body.removeChild(link);
-                          });
-                        }}
-                      >
-                        <p>이미지로 저장하기</p>
-                      </Button>
-                      <Button
-                        radius={"none"}
-                        variant={"faded"}
-                        className="h-[60px] w-full bg-[#FEE500] text-[#000000] font-bold border-0"
-                        fullWidth
-                        size={"lg"}
-                        isLoading={false}
-                        // isDisabled
-                        onPress={() => {
-                          const target = document.getElementById("award");
-                          if (!target) {
-                            return alert("저장에 실패");
-                          }
-                          html2canvas(target, {
-                            //   width: 2480,
-                            //   height: 3508,
-                            scale: 3,
-                          }).then(async (canvas) => {
-                            var imgDataUrl = canvas.toDataURL("image/png");
-
-                            var blobBin = atob(imgDataUrl.split(",")[1]); // base64 데이터 디코딩
-                            var array = [];
-                            for (var i = 0; i < blobBin.length; i++) {
-                              array.push(blobBin.charCodeAt(i));
+                          <p>이미지로 저장하기</p>
+                        </Button>
+                        <Button
+                          radius={"none"}
+                          variant={"faded"}
+                          className="h-[60px] w-full bg-[#FEE500] text-[#000000] font-bold border-0"
+                          fullWidth
+                          size={"lg"}
+                          isLoading={false}
+                          // isDisabled
+                          onPress={() => {
+                            const target = document.getElementById("award");
+                            if (!target) {
+                              return alert("저장에 실패");
                             }
-                            var file = await new File(
-                              [new Uint8Array(array)],
-                              "award.png",
-                              { type: "image/png" }
-                            );
-                            await navigator
-                              .share?.({
-                                title:
-                                  "🏭 상장 공장에서 당신의 상장이 도착했어요!",
-                                text: "내 손으로 빚은 나만의 상장",
-                                files: [file],
-                              })
-                              .catch(console.error);
-                          });
-                          // Optionally virbrate slightly.
-                          navigator.vibrate?.([30, 20, 10]);
-                        }}
-                      >
-                        <p>다른 서비스에 공유하기</p>
-                      </Button>
-                      <Button
-                        radius={"none"}
-                        variant={"faded"}
-                        className="h-[60px] w-full bg-orange-600 text-[#ffffff] font-bold border-0"
-                        fullWidth
-                        isDisabled
-                        size={"lg"}
-                      >
-                        <p>명예의 전당에 제출하기</p>
-                      </Button>
+                            html2canvas(target, {
+                              //   width: 2480,
+                              //   height: 3508,
+                              scale: 3,
+                            }).then(async (canvas) => {
+                              var imgDataUrl = canvas.toDataURL("image/png");
+
+                              var blobBin = atob(imgDataUrl.split(",")[1]); // base64 데이터 디코딩
+                              var array = [];
+                              for (var i = 0; i < blobBin.length; i++) {
+                                array.push(blobBin.charCodeAt(i));
+                              }
+                              var file = await new File(
+                                [new Uint8Array(array)],
+                                "award.png",
+                                { type: "image/png" }
+                              );
+                              await navigator
+                                .share?.({
+                                  title:
+                                    "🏭 상장 공장에서 당신의 상장이 도착했어요!",
+                                  text: "내 손으로 빚은 나만의 상장",
+                                  files: [file],
+                                })
+                                .catch(console.error);
+                            });
+                            // Optionally virbrate slightly.
+                            navigator.vibrate?.([30, 20, 10]);
+                          }}
+                        >
+                          <p>다른 서비스에 공유하기</p>
+                        </Button>
+                        <Button
+                          radius={"none"}
+                          variant={"faded"}
+                          className="h-[60px] w-full bg-orange-600 text-[#ffffff] font-bold border-0"
+                          fullWidth
+                          isDisabled
+                          size={"lg"}
+                        >
+                          <p>명예의 전당에 제출하기</p>
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 </Tab>
-                {/* <>Project</> */}
+                {/* <>명예의 전당</> */}
                 <Tab
-                  key="Project"
+                  key="명예의 전당"
                   title={
                     <Tooltip
-                      content={"Project 탭"}
+                      content={"명예의 전당 탭"}
                       showArrow
                       isOpen={
                         modalOption.isTutorialOpen &&
@@ -505,7 +556,7 @@ export default function Home() {
                       size={"lg"}
                       className="max-w-[150px]"
                     >
-                      <p>Project</p>
+                      <p>명예의 전당</p>
                     </Tooltip>
                   }
                 >

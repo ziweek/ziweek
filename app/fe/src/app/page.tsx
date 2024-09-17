@@ -38,7 +38,7 @@ export default function Home() {
       <section
         className={`${
           mobile ? "" : "grid grid-cols-2"
-        } mx-auto h-full min-h-full w-screen select-none overflow-x-clip`}
+        } mx-auto h-full w-screen select-none overflow-x-clip`}
         style={{ gridTemplateColumns: `1fr minmax(400px, 500px)` }}
       >
         {!mobile && (
@@ -86,7 +86,7 @@ export default function Home() {
                   aria-label="information"
                   onClick={() => {
                     window.open(
-                      "https://amplified-purpose-11c.notion.site/3e486a3aa9cf4ba585ac1c92eecf0e4a?pvs=74"
+                      "https://docs.google.com/document/d/1QAfMea_EV_E7f4dP8K8SKzbpD_mjp3GL/edit?usp=sharing&ouid=115939553945175036835&rtpof=true&sd=true"
                     );
                   }}
                 >
@@ -107,14 +107,8 @@ export default function Home() {
                   WEB Resume
                 </Button>
               </div>
+              <Footer isFixed title={""} subtitle={""}></Footer>
             </div>
-          </div>
-          <div className="absolute bottom-0">
-            <Footer
-              isFixed
-              title={""}
-              subtitle={"Welcome to My Resume!"}
-            ></Footer>
           </div>
         </div>
       </section>
