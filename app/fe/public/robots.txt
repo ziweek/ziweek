@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://award-factory.vercel.app/
+Host: https://ziweek.vercel.app/
 
 # Sitemaps
-Sitemap: https://award-factory.vercel.app/sitemap.xml
+Sitemap: https://ziweek.vercel.app/sitemap.xml
