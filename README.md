@@ -26,6 +26,10 @@
       <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
     </picture>
   </a>
+  <br/>
+  <a href='https://hire-me-please-gpt.streamlit.app'>
+    <img src="https://img.shields.io/badge/Ask%20me%20anything%20:)-HireMePleaseGPT-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  </a>
 </div>
 <br/>
 
@@ -45,7 +49,6 @@
   <br/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
-  <br/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
 </p>
 
