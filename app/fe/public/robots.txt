@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://ziweek.vercel.app/
-
-# Sitemaps
-Sitemap: https://ziweek.vercel.app/sitemap.xml
