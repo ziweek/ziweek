@@ -40,12 +40,12 @@ export default function NavigationBar() {
   const showPortfolioNav = false;
 
   return (
-    <nav className="sticky top-0 z-50 py-3 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 print:hidden">
+    <nav className="sticky top-0 z-50 py-3 bg-resume-bg border-b border-resume-border print:hidden">
       <div className="flex items-center justify-between w-full max-w-4xl px-8 mx-auto">
         {/* Logo/Title & Navigation Links */}
         <div className="flex items-center gap-6">
           <Link href={resumeHref} className="flex items-center gap-3">
-            <span className="font-semibold text-gray-900 dark:text-white">
+            <span className="font-semibold text-resume-heading">
               JIUK KIM
             </span>
           </Link>
@@ -54,8 +54,8 @@ export default function NavigationBar() {
               href={resumeHref}
               className={`text-sm font-medium transition-colors ${
                 isResumePage
-                  ? "text-blue-600 dark:text-blue-400"
-                  : "text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  ? "text-resume-accent"
+                  : "text-resume-body hover:text-resume-heading"
               }`}
             >
               Resume
@@ -65,8 +65,8 @@ export default function NavigationBar() {
                 href="/portfolio"
                 className={`text-sm font-medium transition-colors ${
                   pathname === "/portfolio"
-                    ? "text-blue-600 dark:text-blue-400"
-                    : "text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                    ? "text-resume-accent"
+                    : "text-resume-body hover:text-resume-heading"
                 }`}
               >
                 Portfolio
@@ -83,7 +83,7 @@ export default function NavigationBar() {
               onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
               aria-label={`Language: ${currentLanguage.label}`}
               aria-expanded={isLanguageDropdownOpen}
-              className="flex items-center gap-2 px-2 py-2 text-sm font-medium text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              className="flex items-center gap-2 px-2 py-2 text-sm font-medium text-resume-body transition-colors hover:text-resume-heading"
             >
               <span>{currentLanguage.flag}</span>
               <svg
@@ -104,7 +104,7 @@ export default function NavigationBar() {
             </button>
 
             {isLanguageDropdownOpen && (
-              <div className="absolute right-0 py-1 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-36 dark:bg-gray-800 dark:border-gray-600 z-50">
+              <div className="absolute right-0 py-1 mt-2 bg-resume-surface border border-resume-border rounded-lg shadow-lg w-36 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -112,10 +112,10 @@ export default function NavigationBar() {
                       setLanguage(lang.code);
                       setIsLanguageDropdownOpen(false);
                     }}
-                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-resume-accent-soft transition-colors ${
                       language === lang.code
-                        ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
-                        : "text-gray-700 dark:text-gray-300"
+                        ? "text-resume-accent bg-resume-accent-soft"
+                        : "text-resume-body"
                     }`}
                   >
                     <span>{lang.flag}</span>
@@ -129,7 +129,7 @@ export default function NavigationBar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+            className="p-2 text-resume-body transition-colors hover:text-resume-heading"
             aria-label="Toggle menu"
             aria-expanded={isMobileMenuOpen}
           >
@@ -145,7 +145,7 @@ export default function NavigationBar() {
               onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
               aria-label={`Language: ${currentLanguage.label}`}
               aria-expanded={isLanguageDropdownOpen}
-              className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-resume-body transition-colors hover:text-resume-heading"
             >
               <span>{currentLanguage.flag}</span>
               <span>{currentLanguage.label}</span>
@@ -167,7 +167,7 @@ export default function NavigationBar() {
             </button>
 
             {isLanguageDropdownOpen && (
-              <div className="absolute right-0 py-1 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-36 dark:bg-gray-800 dark:border-gray-600 z-50">
+              <div className="absolute right-0 py-1 mt-2 bg-resume-surface border border-resume-border rounded-lg shadow-lg w-36 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -175,10 +175,10 @@ export default function NavigationBar() {
                       setLanguage(lang.code);
                       setIsLanguageDropdownOpen(false);
                     }}
-                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-resume-accent-soft transition-colors ${
                       language === lang.code
-                        ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
-                        : "text-gray-700 dark:text-gray-300"
+                        ? "text-resume-accent bg-resume-accent-soft"
+                        : "text-resume-body"
                     }`}
                   >
                     <span>{lang.flag}</span>
@@ -193,7 +193,7 @@ export default function NavigationBar() {
           <div className="flex items-center gap-2 print:hidden">
             <button
               onClick={toggleTheme}
-              className="p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              className="p-2 text-resume-body transition-colors hover:text-resume-heading"
               aria-label={
                 theme === "light"
                   ? "Switch to dark theme"
@@ -232,7 +232,7 @@ export default function NavigationBar() {
             </button>
             <button
               onClick={handlePrint}
-              className="flex items-center gap-2 text-sm p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              className="flex items-center gap-2 text-sm p-2 text-resume-body transition-colors hover:text-resume-heading"
               aria-label={printLabel}
               title={printLabel}
             >
@@ -245,7 +245,7 @@ export default function NavigationBar() {
 
       {/* Mobile Menu Dropdown */}
       {isMobileMenuOpen && (
-        <div className="w-full max-w-4xl px-8 mx-auto sm:hidden mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+        <div className="w-full max-w-4xl px-8 mx-auto sm:hidden mt-3 pt-3 border-t border-resume-border">
           {/* Navigation Links */}
           <div className="mb-3 space-y-1">
             <Link
@@ -253,8 +253,8 @@ export default function NavigationBar() {
               onClick={() => setIsMobileMenuOpen(false)}
               className={`w-full flex items-center gap-3 px-3 py-2 text-sm rounded-lg transition-colors ${
                 isResumePage
-                  ? "bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400"
-                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  ? "bg-resume-accent-soft text-resume-accent"
+                  : "text-resume-body hover:bg-resume-accent-soft"
               }`}
             >
               <span>Resume</span>
@@ -265,8 +265,8 @@ export default function NavigationBar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`w-full flex items-center gap-3 px-3 py-2 text-sm rounded-lg transition-colors ${
                   pathname === "/portfolio"
-                    ? "bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400"
-                    : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    ? "bg-resume-accent-soft text-resume-accent"
+                    : "text-resume-body hover:bg-resume-accent-soft"
                 }`}
               >
                 <span>Portfolio</span>
@@ -281,7 +281,7 @@ export default function NavigationBar() {
                 toggleTheme();
                 setIsMobileMenuOpen(false);
               }}
-              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-resume-body hover:bg-resume-accent-soft rounded-lg transition-colors"
             >
               {theme === "light" ? (
                 <>
@@ -324,7 +324,7 @@ export default function NavigationBar() {
                 handlePrint();
                 setIsMobileMenuOpen(false);
               }}
-              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-resume-body hover:bg-resume-accent-soft rounded-lg transition-colors"
             >
               <FiPrinter size={18} />
               <span>{printLabel}</span>

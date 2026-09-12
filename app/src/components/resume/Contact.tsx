@@ -13,7 +13,7 @@ export default function Contact() {
   if (!profile || !profile.items) return null;
 
   return (
-    <div className="text-sm text-right print:text-xs">
+    <div className="text-sm text-left md:text-right print:text-xs">
       <div className="space-y-2">
         {profile.items.map(
           (item: { type: string; content: string }, index: number) => {
@@ -25,7 +25,7 @@ export default function Contact() {
                 <div key={index}>
                   <a
                     href={`mailto:${item.content}`}
-                    className="text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 inline-flex items-center gap-1 justify-end"
+                    className="text-resume-accent transition-colors hover:text-resume-accent-strong inline-flex items-center gap-1 justify-start md:justify-end"
                   >
                     <SiGmail className="w-3 h-3" />
                     {item.content}
@@ -41,7 +41,7 @@ export default function Contact() {
                     href={item.content}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 inline-flex items-center gap-1 justify-end"
+                    className="text-resume-accent transition-colors hover:text-resume-accent-strong inline-flex items-center gap-1 justify-start md:justify-end"
                   >
                     {item.content.includes("linkedin") ? (
                       <>
@@ -66,7 +66,7 @@ export default function Contact() {
 
             return (
               <div key={index}>
-                <span className="text-gray-700 dark:text-gray-300 print:text-black">
+                <span className="text-resume-body print:text-black">
                   {item.content}
                 </span>
               </div>

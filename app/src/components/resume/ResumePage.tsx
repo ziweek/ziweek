@@ -25,13 +25,13 @@ function ResumeContent() {
   const resumeData = messages as TranslationMessages;
 
   return (
-    <div className="resume-page min-h-screen transition-colors bg-white dark:bg-gray-900 print:bg-white">
+    <div className="resume-page min-h-screen transition-colors bg-resume-bg print:bg-white">
       <NavigationBar />
 
       <div className="resume-document max-w-4xl p-8 mx-auto print:p-4">
         {/* Header Section */}
         <Title />
-        <div className="grid grid-cols-1 gap-8 mb-8 md:grid-cols-3 print:grid-cols-3 print:gap-6 print:mb-6">
+        <div className="grid grid-cols-1 gap-5 mb-8 md:grid-cols-3 md:gap-8 print:grid-cols-3 print:gap-6 print:mb-6">
           <Introduction />
           <Contact />
         </div>
@@ -54,7 +54,7 @@ function ResumeContent() {
         </div>
 
         {/* Footer */}
-        <div className="pt-6 mt-12 text-sm text-center text-gray-500 border-t border-gray-200 dark:border-gray-700 dark:text-gray-400 print:hidden">
+        <div className="pt-6 mt-12 text-sm text-center text-resume-muted border-t border-resume-border print:hidden">
           {/* Social Icons */}
           <div className="flex justify-center gap-6 mb-4">
             {resumeData?.profile?.items?.map((item: { type: string; content: string }, index: number) => {

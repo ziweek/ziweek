@@ -14,7 +14,7 @@ export default function SkillTags({ skills }: SkillTagsProps) {
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="skill-tag px-3 py-1 bg-blue-50 dark:bg-blue-900/20 text-blue-400 dark:text-blue-300 rounded-full text-xs border border-blue-200 dark:border-blue-700 print:px-2 print:py-0.5 print:text-xs"
+            className="skill-tag px-3 py-1 bg-resume-accent-soft text-resume-accent-strong rounded-full text-xs border border-resume-border print:px-2 print:py-0.5 print:text-xs"
           >
             {skill.content}
           </span>
