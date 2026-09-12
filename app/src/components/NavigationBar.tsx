@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useTheme } from "@/contexts/ThemeContext";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { FiDownload, FiPrinter, FiMenu, FiX } from "react-icons/fi";
+import { FiPrinter, FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -18,10 +18,12 @@ export default function NavigationBar() {
     window.print();
   };
 
-  const handleDownload = () => {
-    // Trigger print dialog which can be used to save as PDF
-    window.print();
-  };
+  const printLabel = {
+    ko: "인쇄 / PDF로 저장",
+    en: "Print / Save as PDF",
+    jp: "印刷 / PDFとして保存",
+  }[language];
+  const resumeHref = pathname === "/" ? "/" : `/${language}`;
 
   const languages = [
     { code: "ko" as const, label: "한국어", flag: "🇰🇷" },
@@ -32,28 +34,28 @@ export default function NavigationBar() {
   const currentLanguage =
     languages.find((lang) => lang.code === language) || languages[0];
 
-  const isResumePage = pathname === "/";
+  const isResumePage = pathname === "/" || ["/ko", "/en", "/jp"].includes(pathname);
 
   // 포트폴리오 페이지 준비 전까지 네비게이션에서 숨김
   const showPortfolioNav = false;
 
   return (
-    <nav className="sticky top-0 z-50 py-3 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 print:hidden">
+    <nav className="sticky top-0 z-50 py-3 bg-resume-bg border-b border-resume-border print:hidden">
       <div className="flex items-center justify-between w-full max-w-4xl px-8 mx-auto">
         {/* Logo/Title & Navigation Links */}
         <div className="flex items-center gap-6">
-          <Link href="/" className="flex items-center gap-3">
-            <span className="font-semibold text-gray-900 dark:text-white">
+          <Link href={resumeHref} className="flex items-center gap-3">
+            <span className="font-semibold text-resume-heading">
               JIUK KIM
             </span>
           </Link>
           <div className="hidden gap-4 sm:flex">
             <Link
-              href="/"
+              href={resumeHref}
               className={`text-sm font-medium transition-colors ${
                 isResumePage
-                  ? "text-blue-600 dark:text-blue-400"
-                  : "text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  ? "text-resume-accent"
+                  : "text-resume-body hover:text-resume-heading"
               }`}
             >
               Resume
@@ -63,8 +65,8 @@ export default function NavigationBar() {
                 href="/portfolio"
                 className={`text-sm font-medium transition-colors ${
                   pathname === "/portfolio"
-                    ? "text-blue-600 dark:text-blue-400"
-                    : "text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                    ? "text-resume-accent"
+                    : "text-resume-body hover:text-resume-heading"
                 }`}
               >
                 Portfolio
@@ -79,7 +81,9 @@ export default function NavigationBar() {
           <div className="relative">
             <button
               onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-              className="flex items-center gap-2 px-2 py-2 text-sm font-medium text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              aria-label={`Language: ${currentLanguage.label}`}
+              aria-expanded={isLanguageDropdownOpen}
+              className="flex items-center gap-2 px-2 py-2 text-sm font-medium text-resume-body transition-colors hover:text-resume-heading"
             >
               <span>{currentLanguage.flag}</span>
               <svg
@@ -100,7 +104,7 @@ export default function NavigationBar() {
             </button>
 
             {isLanguageDropdownOpen && (
-              <div className="absolute right-0 py-1 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-36 dark:bg-gray-800 dark:border-gray-600 z-50">
+              <div className="absolute right-0 py-1 mt-2 bg-resume-surface border border-resume-border rounded-lg shadow-lg w-36 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -108,10 +112,10 @@ export default function NavigationBar() {
                       setLanguage(lang.code);
                       setIsLanguageDropdownOpen(false);
                     }}
-                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-resume-accent-soft transition-colors ${
                       language === lang.code
-                        ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
-                        : "text-gray-700 dark:text-gray-300"
+                        ? "text-resume-accent bg-resume-accent-soft"
+                        : "text-resume-body"
                     }`}
                   >
                     <span>{lang.flag}</span>
@@ -125,8 +129,9 @@ export default function NavigationBar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+            className="p-2 text-resume-body transition-colors hover:text-resume-heading"
             aria-label="Toggle menu"
+            aria-expanded={isMobileMenuOpen}
           >
             {isMobileMenuOpen ? <FiX size={20} /> : <FiMenu size={20} />}
           </button>
@@ -138,7 +143,9 @@ export default function NavigationBar() {
           <div className="relative">
             <button
               onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-              className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              aria-label={`Language: ${currentLanguage.label}`}
+              aria-expanded={isLanguageDropdownOpen}
+              className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-resume-body transition-colors hover:text-resume-heading"
             >
               <span>{currentLanguage.flag}</span>
               <span>{currentLanguage.label}</span>
@@ -160,7 +167,7 @@ export default function NavigationBar() {
             </button>
 
             {isLanguageDropdownOpen && (
-              <div className="absolute right-0 py-1 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-36 dark:bg-gray-800 dark:border-gray-600 z-50">
+              <div className="absolute right-0 py-1 mt-2 bg-resume-surface border border-resume-border rounded-lg shadow-lg w-36 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -168,10 +175,10 @@ export default function NavigationBar() {
                       setLanguage(lang.code);
                       setIsLanguageDropdownOpen(false);
                     }}
-                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+                    className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-resume-accent-soft transition-colors ${
                       language === lang.code
-                        ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
-                        : "text-gray-700 dark:text-gray-300"
+                        ? "text-resume-accent bg-resume-accent-soft"
+                        : "text-resume-body"
                     }`}
                   >
                     <span>{lang.flag}</span>
@@ -186,7 +193,7 @@ export default function NavigationBar() {
           <div className="flex items-center gap-2 print:hidden">
             <button
               onClick={toggleTheme}
-              className="p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              className="p-2 text-resume-body transition-colors hover:text-resume-heading"
               aria-label={
                 theme === "light"
                   ? "Switch to dark theme"
@@ -225,17 +232,12 @@ export default function NavigationBar() {
             </button>
             <button
               onClick={handlePrint}
-              className="p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
-              aria-label="Print"
+              className="flex items-center gap-2 text-sm p-2 text-resume-body transition-colors hover:text-resume-heading"
+              aria-label={printLabel}
+              title={printLabel}
             >
               <FiPrinter size={18} />
-            </button>
-            <button
-              onClick={handleDownload}
-              className="p-2 text-gray-700 transition-colors dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
-              aria-label="Download as PDF"
-            >
-              <FiDownload size={18} />
+              <span>{printLabel}</span>
             </button>
           </div>
         </div>
@@ -243,16 +245,16 @@ export default function NavigationBar() {
 
       {/* Mobile Menu Dropdown */}
       {isMobileMenuOpen && (
-        <div className="w-full max-w-4xl px-8 mx-auto sm:hidden mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+        <div className="w-full max-w-4xl px-8 mx-auto sm:hidden mt-3 pt-3 border-t border-resume-border">
           {/* Navigation Links */}
           <div className="mb-3 space-y-1">
             <Link
-              href="/"
+              href={resumeHref}
               onClick={() => setIsMobileMenuOpen(false)}
               className={`w-full flex items-center gap-3 px-3 py-2 text-sm rounded-lg transition-colors ${
                 isResumePage
-                  ? "bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400"
-                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  ? "bg-resume-accent-soft text-resume-accent"
+                  : "text-resume-body hover:bg-resume-accent-soft"
               }`}
             >
               <span>Resume</span>
@@ -263,8 +265,8 @@ export default function NavigationBar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`w-full flex items-center gap-3 px-3 py-2 text-sm rounded-lg transition-colors ${
                   pathname === "/portfolio"
-                    ? "bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400"
-                    : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    ? "bg-resume-accent-soft text-resume-accent"
+                    : "text-resume-body hover:bg-resume-accent-soft"
                 }`}
               >
                 <span>Portfolio</span>
@@ -279,7 +281,7 @@ export default function NavigationBar() {
                 toggleTheme();
                 setIsMobileMenuOpen(false);
               }}
-              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-resume-body hover:bg-resume-accent-soft rounded-lg transition-colors"
             >
               {theme === "light" ? (
                 <>
@@ -322,20 +324,10 @@ export default function NavigationBar() {
                 handlePrint();
                 setIsMobileMenuOpen(false);
               }}
-              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-resume-body hover:bg-resume-accent-soft rounded-lg transition-colors"
             >
               <FiPrinter size={18} />
-              <span>Print</span>
-            </button>
-            <button
-              onClick={() => {
-                handleDownload();
-                setIsMobileMenuOpen(false);
-              }}
-              className="w-full flex items-center gap-3 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
-            >
-              <FiDownload size={18} />
-              <span>Download PDF</span>
+              <span>{printLabel}</span>
             </button>
           </div>
         </div>

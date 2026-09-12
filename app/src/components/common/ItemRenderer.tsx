@@ -32,8 +32,8 @@ export default function ItemRenderer({
       <div
         className={
           item.level === "secondary"
-            ? "text-xs text-gray-500 dark:text-gray-400 print:text-xs print:text-gray-800 ml-2"
-            : "text-gray-700 dark:text-gray-300 print:text-xs print:text-black leading-relaxed text-sm ml-2"
+            ? "text-xs text-resume-muted print:text-xs print:text-gray-800 ml-2"
+            : "text-resume-body print:text-xs print:text-black leading-relaxed text-sm ml-2"
         }
       >
         {textItem.url ? (
@@ -41,7 +41,7 @@ export default function ItemRenderer({
             href={textItem.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+            className="text-resume-accent transition-colors hover:text-resume-accent-strong"
           >
             {displayContent}{' '}
             <HiExternalLink className={`inline opacity-70 ${

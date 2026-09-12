@@ -16,16 +16,16 @@ export default function Card({ card, variant = "simple" }: CardProps) {
   
   const variantClasses = {
     bordered:
-      "p-3 border border-gray-200 dark:border-gray-700 rounded-lg dark:bg-gray-800/50 print:p-2 print:dark:bg-transparent",
+      "p-3 border border-resume-border rounded-lg bg-resume-surface print:p-2 print:dark:bg-transparent",
     timeline:
-      "ml-1 border-l-2 border-gray-200 dark:border-gray-700 pl-3 print:border-l print:pl-2",
+      "ml-1 border-l-2 border-resume-border pl-3 print:border-l print:pl-2",
     simple: "p-2",
   };
 
   return (
-    <div className={`mb-4 print:mb-3 ${variantClasses[variant]}`}>
+    <div className={`resume-card mb-4 print:mb-3 ${variantClasses[variant]}`}>
       {/* Card Header */}
-      <div>
+      <div className="resume-card-heading">
         <div className="flex items-center justify-between space-x-1">
           {card.title && (
             <h3
@@ -40,7 +40,7 @@ export default function Card({ card, variant = "simple" }: CardProps) {
                   href={card.title.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+                  className="text-resume-accent transition-colors hover:text-resume-accent-strong"
                 >
                   {card.title.content}{' '}
                   <HiExternalLink
@@ -50,25 +50,25 @@ export default function Card({ card, variant = "simple" }: CardProps) {
                   />
                 </a>
               ) : (
-                <span className="text-gray-900 dark:text-white print:text-black">
+                <span className="text-resume-heading print:text-black">
                   {card.title.content}
                 </span>
               )}
             </h3>
           )}
           {card.tag && (
-            <span className="text-xs text-right text-gray-500 dark:text-gray-400 print:text-xs print:text-gray-800">
+            <span className="text-xs text-right text-resume-muted print:text-xs print:text-gray-800">
               {card.tag}
             </span>
           )}
         </div>
         {card.subtitle && (
-          <p className="mt-1 text-sm text-blue-400 dark:text-blue-300 print:text-xs print:text-blue-600">
+          <p className="mt-1 text-sm text-resume-accent print:text-xs print:text-blue-600">
             {card.subtitle}
           </p>
         )}
         {card.description && (
-          <p className="mt-1 text-sm text-gray-600 dark:text-gray-400 print:text-xs print:text-gray-800">
+          <p className="mt-1 text-sm text-resume-muted print:text-xs print:text-gray-800">
             {card.description}
           </p>
         )}
@@ -79,7 +79,7 @@ export default function Card({ card, variant = "simple" }: CardProps) {
             {card.techStack.map((tech, index) => (
               <span
                 key={index}
-                className="px-2 py-0.5 text-xs font-medium text-blue-700 bg-blue-100 rounded dark:bg-blue-900/30 dark:text-blue-300 print:text-xs print:px-1.5 print:py-0 print:bg-blue-100 print:text-blue-700"
+                className="px-2 py-0.5 text-xs font-medium text-resume-accent-strong bg-resume-accent-soft rounded print:text-xs print:px-1.5 print:py-0 print:bg-blue-100 print:text-blue-700"
                 style={{ printColorAdjust: 'exact', WebkitPrintColorAdjust: 'exact' }}
               >
                 {tech}
@@ -108,7 +108,7 @@ export default function Card({ card, variant = "simple" }: CardProps) {
             href={card.link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 print:text-xs"
+            className="inline-flex items-center gap-1 mt-2 text-sm text-resume-accent transition-colors hover:text-resume-accent-strong print:text-xs"
           >
             {card.link.text}
             <HiExternalLink className="w-3 h-3 opacity-70" />

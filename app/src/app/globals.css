@@ -5,6 +5,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --resume-bg: #ffffff;
+  --resume-surface: #f8fafc;
+  --resume-border: #cbd5e1;
+  --resume-heading: #0f172a;
+  --resume-body: #334155;
+  --resume-muted: #475569;
+  --resume-accent: #1d4ed8;
+  --resume-accent-strong: #1e40af;
+  --resume-accent-soft: #dbeafe;
 }
 
 @theme inline {
@@ -12,18 +21,36 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-resume-bg: var(--resume-bg);
+  --color-resume-surface: var(--resume-surface);
+  --color-resume-border: var(--resume-border);
+  --color-resume-heading: var(--resume-heading);
+  --color-resume-body: var(--resume-body);
+  --color-resume-muted: var(--resume-muted);
+  --color-resume-accent: var(--resume-accent);
+  --color-resume-accent-strong: var(--resume-accent-strong);
+  --color-resume-accent-soft: var(--resume-accent-soft);
 }
 
 /* Dark mode override */
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #0d1117;
+  --foreground: #f8fafc;
+  --resume-bg: #0d1117;
+  --resume-surface: #161b22;
+  --resume-border: #30363d;
+  --resume-heading: #f8fafc;
+  --resume-body: #d1d5db;
+  --resume-muted: #9ca3af;
+  --resume-accent: #60a5fa;
+  --resume-accent-strong: #93c5fd;
+  --resume-accent-soft: #172554;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
 /* Print Styles */
@@ -192,6 +219,51 @@ body {
 
   .print\:text-gray-800 {
     color: #1f2937 !important;
+  }
+
+  /* A single reading flow prevents a long main column leaving empty sidebar pages. */
+  .resume-document {
+    max-width: none;
+    padding: 0 !important;
+  }
+
+  .resume-columns {
+    display: block;
+  }
+
+  .resume-page,
+  .resume-page * {
+    color: #111 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .resume-page {
+    background: white !important;
+    min-height: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .resume-page p,
+  .resume-page .print\:text-xs {
+    font-size: 9pt !important;
+    line-height: 1.4;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .resume-page h1,
+  .resume-page h2,
+  .resume-page h3,
+  .resume-page .resume-card-heading {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+
+  /* Long project cards can span pages; keep their smaller content groups together. */
+  .resume-page .resume-card:not(:has(.resume-card)) {
+    break-inside: avoid;
   }
 }
 

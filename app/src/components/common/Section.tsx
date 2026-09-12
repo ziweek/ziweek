@@ -15,8 +15,8 @@ interface SectionProps {
 export default function Section({ 
   section, 
   variant = "simple",
-  titleColor = "text-blue-400 dark:text-blue-300",
-  borderColor = "border-blue-400 dark:border-blue-300"
+  titleColor = "text-resume-accent",
+  borderColor = "border-resume-accent"
 }: SectionProps) {
   // Don't render if inactive
   if (section.inactive) return null;
@@ -30,7 +30,7 @@ export default function Section({
             href={section.title.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+            className="text-resume-accent transition-colors hover:text-resume-accent-strong"
           >
             {section.title.content}{' '}
             <HiExternalLink className="inline w-3 h-3 opacity-70" />
