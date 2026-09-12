@@ -23,9 +23,9 @@ export default function Card({ card, variant = "simple" }: CardProps) {
   };
 
   return (
-    <div className={`mb-4 print:mb-3 ${variantClasses[variant]}`}>
+    <div className={`resume-card mb-4 print:mb-3 ${variantClasses[variant]}`}>
       {/* Card Header */}
-      <div>
+      <div className="resume-card-heading">
         <div className="flex items-center justify-between space-x-1">
           {card.title && (
             <h3

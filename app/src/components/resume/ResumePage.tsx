@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import type { Language } from "@/lib/resume-messages";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import NavigationBar from "@/components/NavigationBar";
@@ -24,10 +25,10 @@ function ResumeContent() {
   const resumeData = messages as TranslationMessages;
 
   return (
-    <div className="min-h-screen transition-colors bg-white dark:bg-gray-900 print:bg-white">
+    <div className="resume-page min-h-screen transition-colors bg-white dark:bg-gray-900 print:bg-white">
       <NavigationBar />
 
-      <div className="max-w-4xl p-8 mx-auto print:p-4">
+      <div className="resume-document max-w-4xl p-8 mx-auto print:p-4">
         {/* Header Section */}
         <Title />
         <div className="grid grid-cols-1 gap-8 mb-8 md:grid-cols-3 print:grid-cols-3 print:gap-6 print:mb-6">
@@ -35,7 +36,7 @@ function ResumeContent() {
           <Contact />
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 print:grid-cols-3 print:gap-6">
+        <div className="resume-columns grid grid-cols-1 gap-8 md:grid-cols-3 print:grid-cols-3 print:gap-6">
           {/* Left Column - Main Content */}
           <div className="space-y-8 md:col-span-2 print:col-span-2 print:space-y-6">
             <Skills />
@@ -108,10 +109,10 @@ function ResumeContent() {
   );
 }
 
-export default function App() {
+export default function ResumePage({ language = "ko" }: { language?: Language }) {
   return (
     <ThemeProvider>
-      <LanguageProvider>
+      <LanguageProvider initialLanguage={language}>
         <ResumeContent />
       </LanguageProvider>
     </ThemeProvider>

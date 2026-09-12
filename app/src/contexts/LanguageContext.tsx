@@ -1,82 +1,34 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
-import type { TranslationMessages } from "@/types/translations";
-import enMessages from "@/messages/en.json";
-import koMessages from "@/messages/ko.json";
-import personalConfig from "@/config/personal.json";
-
-type Language = "ko" | "en" | "jp";
+import React, { createContext, useContext, useMemo, useState } from 'react';
+import { usePathname, useRouter } from 'next/navigation';
+import type { TranslationMessages } from '@/types/translations';
+import { getResumeMessages, type Language } from '@/lib/resume-messages';
 
 interface LanguageContextType {
   language: Language;
-  setLanguage: (lang: Language) => void;
+  setLanguage: (language: Language) => void;
   messages: TranslationMessages;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(
-  undefined
-);
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("ko");
-  const [messages, setMessages] = useState<TranslationMessages>(
-    koMessages as unknown as TranslationMessages
-  );
+export function LanguageProvider({ children, initialLanguage = 'ko' }: {
+  children: React.ReactNode;
+  initialLanguage?: Language;
+}) {
+  const router = useRouter();
+  const pathname = usePathname();
+  // Keep the existing, separate portfolio's in-page language selector working.
+  const [portfolioLanguage, setPortfolioLanguage] = useState<Language>('ko');
+  const isPortfolio = pathname === '/portfolio';
+  const language = isPortfolio ? portfolioLanguage : initialLanguage;
+  const messages = useMemo(() => getResumeMessages(language), [language]);
 
-  useEffect(() => {
-    // Load messages for current language
-    const loadMessages = async () => {
-      try {
-        const messageModule = await import(`../messages/${language}.json`);
-        const rawMessages = messageModule.default;
-        
-        // Replace template variables with personal config values
-        const processedMessages = JSON.parse(
-          JSON.stringify(rawMessages).replace(
-            /\{\{personal\.([^}]+)\}\}/g,
-            (match, path) => {
-              const keys = path.split('.');
-              let value: unknown = personalConfig;
-              for (const key of keys) {
-                value = (value as Record<string, unknown>)?.[key];
-              }
-              return (typeof value === 'string' ? value : match);
-            }
-          )
-        );
-        
-        setMessages(processedMessages);
-      } catch (error) {
-        console.error(
-          `Failed to load messages for language: ${language}`,
-          error
-        );
-        // Fallback to English
-        const processedEnMessages = JSON.parse(
-          JSON.stringify(enMessages).replace(
-            /\{\{personal\.([^}]+)\}\}/g,
-            (match, path) => {
-              const keys = path.split('.');
-              let value: unknown = personalConfig;
-              for (const key of keys) {
-                value = (value as Record<string, unknown>)?.[key];
-              }
-              return (typeof value === 'string' ? value : match);
-            }
-          )
-        );
-        setMessages(processedEnMessages as unknown as TranslationMessages);
-      }
-    };
-
-    loadMessages();
-
-    // Save language to localStorage
-    if (typeof window !== "undefined") {
-      localStorage.setItem("language", language);
-    }
-  }, [language]);
+  const setLanguage = (nextLanguage: Language) => {
+    if (isPortfolio) setPortfolioLanguage(nextLanguage);
+    else router.push(`/${nextLanguage}`, { scroll: false });
+  };
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, messages }}>
@@ -87,8 +39,6 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
 export function useLanguage() {
   const context = useContext(LanguageContext);
-  if (context === undefined) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
-  }
+  if (context === undefined) throw new Error('useLanguage must be used within a LanguageProvider');
   return context;
 }

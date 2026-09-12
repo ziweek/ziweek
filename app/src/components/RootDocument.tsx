@@ -1,7 +1,6 @@
-import type { Metadata } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,19 +12,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "JIUK KIM - Software Engineer",
-  description:
-    "Software Engineer with expertise in machine learning engineering, backend development, and cloud technologies. Experience in ML lifecycle, multi-agent RAG systems, and transforming data into business value.",
-};
-
-export default function RootLayout({
+export default function RootDocument({
   children,
+  language,
 }: Readonly<{
   children: React.ReactNode;
+  language: string;
 }>) {
   return (
-    <html lang="ko">
+    <html lang={language} suppressHydrationWarning>
       <head>
         <Script id="theme-init" strategy="beforeInteractive">
           {`

@@ -193,6 +193,51 @@ body {
   .print\:text-gray-800 {
     color: #1f2937 !important;
   }
+
+  /* A single reading flow prevents a long main column leaving empty sidebar pages. */
+  .resume-document {
+    max-width: none;
+    padding: 0 !important;
+  }
+
+  .resume-columns {
+    display: block;
+  }
+
+  .resume-page,
+  .resume-page * {
+    color: #111 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .resume-page {
+    background: white !important;
+    min-height: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .resume-page p,
+  .resume-page .print\:text-xs {
+    font-size: 9pt !important;
+    line-height: 1.4;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .resume-page h1,
+  .resume-page h2,
+  .resume-page h3,
+  .resume-page .resume-card-heading {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+
+  /* Long project cards can span pages; keep their smaller content groups together. */
+  .resume-page .resume-card:not(:has(.resume-card)) {
+    break-inside: avoid;
+  }
 }
 
 /* Custom responsive breakpoints */
